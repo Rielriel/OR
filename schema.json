@@ -1,0 +1,356 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "default": [],
+    "title": "Hrvatske nogometne lige",
+    "items": {
+        "type": "object",
+        "title": "Hrvatski nogometni klubovi",
+        "required": [
+            "Naziv",
+            "Podatci"
+        ],
+        "properties": {
+            "Naziv": {
+                "type": "string",
+                "title": "The Naziv Schema",
+                "examples": [
+                    "NK Karlovac 1919",
+                    "NK Mladost Ždralovi",
+                    "NK Jadran-LP"
+                ]
+            },
+            "Podatci": {
+                "type": "object",
+                "title": "The Podatci Schema",
+                "required": [
+                    "Nadimak",
+                    "Stadion",
+                    "Mjesto",
+                    "GodinaOsnutka",
+                    "Predsjednik",
+                    "Trener",
+                    "NavijačkaSkupina",
+                    "BojaDresa",
+                    "PrvakHrvatske",
+                    "Liga"
+                ],
+                "properties": {
+                    "Nadimak": {
+                        "type": "string",
+                        "title": "The Nadimak Schema",
+                        "examples": [
+                            "Bili",
+                            "Riječki bijeli",
+                            "Farmaceuti"
+                        ]
+                    },
+                    "Stadion": {
+                        "type": "string",
+                        "title": "The Stadion Schema",
+                        "examples": [
+                            "Stadion Stanko Vlainić-Dida",
+                            "Stadion Veli Jože",
+                            "Stadion Poljud"
+                        ]
+                    },
+                    "Mjesto": {
+                        "type": "string",
+                        "title": "The Mjesto Schema",
+                        "examples": [
+                            "Slavonski Brod",
+                            "Poreč",
+                            "Šibenik"
+                        ]
+                    },
+                    "GodinaOsnutka": {
+                        "type": "integer",
+                        "title": "The GodinaOsnutka Schema",
+                        "examples": [
+                            1946,
+                            1945,
+                            1935
+                        ]
+                    },
+                    "Predsjednik": {
+                        "type": "string",
+                        "title": "The Predsjednik Schema",
+                        "examples": [
+                            "Vjekoslav Ćalušić",
+                            "Velimir Zajec",
+                            "Dražen Vitez"
+                        ]
+                    },
+                    "Trener": {
+                        "type": "string",
+                        "title": "The Trener Schema",
+                        "examples": [
+                            "Mišo Krstičević",
+                            "Srećko Lušić",
+                            "Sergej Banović"
+                        ]
+                    },
+                    "NavijačkaSkupina": {
+                        "type": "string",
+                        "title": "The NavijačkaSkupina Schema",
+                        "examples": [
+                            "Gademz Karlovac",
+                            "Kohorta",
+                            "Podravske štuke"
+                        ]
+                    },
+                    "BojaDresa": {
+                        "type": "string",
+                        "title": "The BojaDresa Schema",
+                        "examples": [
+                            "Maslinasta",
+                            "Crno-bijela",
+                            "Ljubičasta"
+                        ]
+                    },
+                    "PrvakHrvatske": {
+                        "type": "integer",
+                        "title": "The PrvakHrvatske Schema",
+                        "examples": [
+                            6,
+                            1,
+                            25
+                        ]
+                    },
+                    "Liga": {
+                        "type": "object",
+                        "title": "The Liga Schema",
+                        "required": [
+                            "NazivLige",
+                            "Rang",
+                            "BrojKlubova",
+                            "Krugovi"
+                        ],
+                        "properties": {
+                            "NazivLige": {
+                                "type": "string",
+                                "title": "The NazivLige Schema",
+                                "examples": [
+                                    "SuperSport Druga NL",
+                                    "SuperSport HNL",
+                                    "SuperSport Prva NL"
+                                ]
+                            },
+                            "Rang": {
+                                "type": "string",
+                                "title": "The Rang Schema",
+                                "examples": [
+                                    "3",
+                                    "1",
+                                    "2"
+                                ]
+                            },
+                            "BrojKlubova": {
+                                "type": "string",
+                                "title": "The BrojKlubova Schema",
+                                "examples": [
+                                    "16",
+                                    "10",
+                                    "12"
+                                ]
+                            },
+                            "Krugovi": {
+                                "type": "string",
+                                "title": "The Krugovi Schema",
+                                "examples": [
+                                    "2",
+                                    "4",
+                                    "3"
+                                ]
+                            }
+                        },
+                        "examples": [{
+                            "NazivLige": "SuperSport Druga NL",
+                            "Rang": "3",
+                            "BrojKlubova": "16",
+                            "Krugovi": "2"
+                        }]
+                    }
+                },
+                "examples": [
+                {
+                    "Nadimak": "Radnik",
+                    "Stadion": "Gradski stadion",
+                    "Mjesto": "Križevci",
+                    "GodinaOsnutka": 1909,
+                    "Predsjednik": "Drago Črček",
+                    "Trener": "Damir Milinović",
+                    "NavijačkaSkupina": "Radnik navijači",
+                    "BojaDresa": "Plava",
+                    "PrvakHrvatske": 0,
+                    "Liga": {
+                        "NazivLige": "SuperSport Druga NL",
+                        "Rang": "3",
+                        "BrojKlubova": "16",
+                        "Krugovi": "2"
+                    }
+                },
+                {
+                    "Nadimak": "Varaždinci",
+                    "Stadion": "Stadion Varteks",
+                    "Mjesto": "Varaždin",
+                    "GodinaOsnutka": 1931,
+                    "Predsjednik": "Dražen Vitez",
+                    "Trener": "Nikola Šafarić",
+                    "NavijačkaSkupina": "White Stones",
+                    "BojaDresa": "Plavo-bijela",
+                    "PrvakHrvatske": 0,
+                    "Liga": {
+                        "NazivLige": "SuperSport HNL",
+                        "Rang": "1",
+                        "BrojKlubova": "10",
+                        "Krugovi": "4"
+                    }
+                },
+                {
+                    "Nadimak": "Zrinski",
+                    "Stadion": "Stadion Gradski vrt",
+                    "Mjesto": "Osijek",
+                    "GodinaOsnutka": 1970,
+                    "Predsjednik": "Ivan Komak",
+                    "Trener": "Marko Vukčević",
+                    "NavijačkaSkupina": "Zrinski navijači",
+                    "BojaDresa": "Crvena",
+                    "PrvakHrvatske": 0,
+                    "Liga": {
+                        "NazivLige": "SuperSport Prva NL",
+                        "Rang": "2",
+                        "BrojKlubova": "12",
+                        "Krugovi": "3"
+                    }
+                }]
+            }
+        },
+        "examples": [
+        {
+            "Naziv": "HNK Hajduk Split",
+            "Podatci": {
+                "Nadimak": "Bili",
+                "Stadion": "Stadion Poljud",
+                "Mjesto": "Split",
+                "GodinaOsnutka": 1911,
+                "Predsjednik": "Ivan Bilić",
+                "Trener": "Gennaro Gattuso",
+                "NavijačkaSkupina": "Torcida",
+                "BojaDresa": "Bijela",
+                "PrvakHrvatske": 6,
+                "Liga": {
+                    "NazivLige": "SuperSport HNL",
+                    "Rang": "1",
+                    "BrojKlubova": "10",
+                    "Krugovi": "4"
+                }
+            }
+        },
+        {
+            "Naziv": "HNK Rijeka",
+            "Podatci": {
+                "Nadimak": "Riječki bijeli",
+                "Stadion": "Stadion Rujevica",
+                "Mjesto": "Rijeka",
+                "GodinaOsnutka": 1946,
+                "Predsjednik": "Damir Mišković",
+                "Trener": "Radomir Đalović",
+                "NavijačkaSkupina": "Armada",
+                "BojaDresa": "Bijela",
+                "PrvakHrvatske": 1,
+                "Liga": {
+                    "NazivLige": "SuperSport HNL",
+                    "Rang": "1",
+                    "BrojKlubova": "10",
+                    "Krugovi": "4"
+                }
+            }
+        },
+        {
+            "Naziv": "GNK Dinamo Zagreb",
+            "Podatci": {
+                "Nadimak": "Plavi",
+                "Stadion": "Stadion Maksimir",
+                "Mjesto": "Zagreb",
+                "GodinaOsnutka": 1945,
+                "Predsjednik": "Velimir Zajec",
+                "Trener": "Nenad Bjelica",
+                "NavijačkaSkupina": "Bad Blue Boys",
+                "BojaDresa": "Plava",
+                "PrvakHrvatske": 25,
+                "Liga": {
+                    "NazivLige": "SuperSport HNL",
+                    "Rang": "1",
+                    "BrojKlubova": "10",
+                    "Krugovi": "4"
+                }
+            }
+        }
+        ]
+    },
+    "examples": [
+        [
+        {
+            "Naziv": "NK Kustošija",
+            "Podatci": {
+                "Nadimak": "Kusta",
+                "Stadion": "Stadion Kustošija",
+                "Mjesto": "Zagreb",
+                "GodinaOsnutka": 1929,
+                "Predsjednik": "Branimir Majdak",
+                "Trener": "Perica Vidak",
+                "NavijačkaSkupina": "Kustošija navijači",
+                "BojaDresa": "Crveno-crna",
+                "PrvakHrvatske": 0,
+                "Liga": {
+                    "NazivLige": "SuperSport Druga NL",
+                    "Rang": "3",
+                    "BrojKlubova": "16",
+                    "Krugovi": "2"
+                }
+            }
+        },
+        {
+            "Naziv": "NK Osijek",
+            "Podatci": {
+                "Nadimak": "Bijelo-plavi",
+                "Stadion": "Stadion Opus Arena",
+                "Mjesto": "Osijek",
+                "GodinaOsnutka": 1947,
+                "Predsjednik": "Ferenc Sakalj",
+                "Trener": "Federico Coppitelli",
+                "NavijačkaSkupina": "Kohorta",
+                "BojaDresa": "Plavo-bijela",
+                "PrvakHrvatske": 0,
+                "Liga": {
+                    "NazivLige": "SuperSport HNL",
+                    "Rang": "1",
+                    "BrojKlubova": "10",
+                    "Krugovi": "4"
+                }
+            }
+        },
+        {
+            "Naziv": "NK Istra 1961",
+            "Podatci": {
+                "Nadimak": "Zeleno-žuti",
+                "Stadion": "Stadion Aldo Drosina",
+                "Mjesto": "Pula",
+                "GodinaOsnutka": 1948,
+                "Predsjednik": "Branko Devide Vincenti",
+                "Trener": "Paolo Tramezzani",
+                "NavijačkaSkupina": "Demoni",
+                "BojaDresa": "Zelena-žuta",
+                "PrvakHrvatske": 0,
+                "Liga": {
+                    "NazivLige": "SuperSport HNL",
+                    "Rang": "1",
+                    "BrojKlubova": "10",
+                    "Krugovi": "4"
+                }
+            }
+        }]
+    ]
+}

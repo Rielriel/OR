@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="license" content="CC0 1.0 Universal (CC0 1.0) Public Domain Dedication">
+    <meta name="author" content="Gabriel Leko">
+    <meta name="dataset-version" content="1.0">
+    <meta name="language" content="hr">
+    <meta name="date" content="2024-10-27">
+    <meta name="description" content="Ovaj skup podataka uključuje informacije o nogometnim ligama i klubovima u Hrvatskoj, uključujući broj liga, broj klubova po ligi i dodatne atribute vezane uz klubove.">
+    <meta name="keywords" content="nogomet, klub, liga, hrvatski nogomet, analiza nogometa">
+    <meta name="dataset-structure" content="Broj liga: 3; Broj klubova prve lige: 10; Broj klubova druge lige: 12; Broj klubova treće lige: 16.">
+    <meta name="attributes" content="Naziv, Nadimak, Stadion, Grad, GodinaOsnutka, Predsjednik, Trener, NavijačkaSkupina, BojaDresa, PrvakHrvatske, Liga, Rang, BrojKlubova, Krugovi">
+    <meta name="formats-available" content=".csv, .json">
+    <meta name="usage-info" content="Ovaj skup podataka može se koristiti za analizu trendova u hrvatskom nogometu, usporedbu klubova, te istraživanje povezanosti između trofeja i uspjeha u ligama.">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.css"/>
+  <script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
+  <link rel="stylesheet" href="styles/index-styles.css">
+  <link rel="stylesheet" href="styles/index-styles-mobile.css"
+        media="screen and (max-width: 1024px)">
+  <title>Hrvatske nogometne lige</title>
+</head>
+<body>
+
+<div id="wrapper">
+
+
+
+
+  <div id="logo"><a href="index.html" id = "indexHyperlink"><img src="images/logo.png" alt="logo" id = "logoPic"></img></a></div>
+
+  <div id="currentCat"><p id="currentCategory">Hrvatske nogometne lige</p></div>
+
+
+
+
+  <br style="clear: both;">
+  <div id="list">
+    <ul id = "categoryList">
+      <p id="category">NAVIGACIJA</p>
+      <li class="izbor"><a class="link" href="index.html">Naslovna stranica</a></li>
+      <li class="izbor"><a class="link" href="form.html">Pretraživanje liga</a></li>
+      <li class="izbor"><a class="link"  href="http://www.fer.hr">Web-stranica FER-a</a></li>
+      <li class="izbor"><a class="link" href="http://www.fer.unizg.hr/predmet/or"
+                           onclick="window.open(this.href, '_blank');return false;" >Otvoreno Računarstvo</a></li>
+    </ul>
+
+  </div>
+
+
+  <div id="main">
+    <div id ="greet"> Uživajte u <span id ="pespem">hrvatskim nogometnim ligama</span>! </div>
+  </div>
+  <br style="clear: both;">
+  <div id="additional">
+
+
+    <p>kontakt</p>
+    <p>newsletter</p>
+    <p>pretplati se</p>
+
+  </div>
+  <div>
+    <h2>Hrvatske nogometne lige</h2>
+
+    <form id="filterForm">
+      <label for="searchText">Pretraži:</label>
+      <input type="text" id="searchText" name="searchText" placeholder="Unesite tekst za pretragu...">
+
+      <label for="searchField">Po kojem atributu pretražiti?</label>
+      <select id="searchField" name="searchField">
+        <option value="all">Svi atributi</option>
+        <option value="naziv_liga">Naziv lige</option>
+        <option value="rang">Rang</option>
+        <option value="broj_klubova">Broj klubova</option>
+        <option value="krugovi">Krugovi</option>
+        <option value="naziv_klub">Naziv kluba</option>
+        <option value="nadimak">Nadimak</option>
+        <option value="naziv_stadion">Naziv stadiona</option>
+        <option value="mjesto">Mjesto</option>
+        <option value="godina_osnutak">Godina osnutka</option>
+        <option value="predsjednik">Predsjednik</option>
+        <option value="trener">Trener</option>
+        <option value="navijaci">Navijači</option>
+        <option value="boja">Boja dresa</option>
+        <option value="prvak_hrvatska">Prvak Hrvatske</option>
+      </select>
+
+      <button type="submit">Filtriraj</button>
+      <button type="button" id="clearFilter">Poništi filter</button>
+    </form>
+  </div>
+  <div>
+  <table id="dataTable">
+    <thead>
+    <tr>
+      <th>Naziv Lige</th>
+      <th>Rang</th>
+      <th>Broj Klubova</th>
+      <th>Krugovi</th>
+      <th>Naziv Kluba</th>
+      <th>Nadimak</th>
+      <th>Naziv Stadiona</th>
+      <th>Mjesto</th>
+      <th>Godina Osnutka</th>
+      <th>Predsjednik</th>
+      <th>Trener</th>
+      <th>Navijači</th>
+      <th>Boja</th>
+      <th>Prvak Hrvatske</th>
+
+    </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+    <div>
+      <button id = "downloadCSV" >Preuzmi u CSV</button>
+      <button id="downloadJSON">Preuzmi u JSON</button>
+    </div>
+  </div>
+</div>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
+

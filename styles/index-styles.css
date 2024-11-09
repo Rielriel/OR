@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "quicksand";
+    src: url("../fonts/Quicksand.ttf");
+}
+
+* {
+    font-family: "quicksand", serif;
+    color: royalblue;
+}
+body{
+    background-color: lightblue;
+}
+#wrapper {
+    display: grid;
+    grid-template-areas:
+        "logo currentCat currentCat"
+        "list main main"
+        "list products products"
+        "additional products products"
+        ". products products";
+    background-color: lightblue;
+    border:none;
+}
+
+#logo {
+    grid-area: logo;
+    height: 10vh;
+    display:flex;
+    justify-content: center;
+}
+#logoPic{
+    height: 100%;
+}
+#indexHyperlink{
+    text-decoration: none;
+    height: 100%;
+}
+
+
+ul{
+    font-size: 1.5rem;
+    margin:0;
+    padding:0;
+
+}
+li{
+    padding: 0.3rem;
+    font-size: 1rem;
+    list-style-type: none;
+    margin: 0;
+}
+#category{
+    padding: 0;
+    margin: 0.3rem;
+    text-decoration: underline whitesmoke;
+}
+
+div {
+    margin: 0.3rem;
+    padding: 0.3rem;
+    text-align: center;
+    align-content: center;
+    background-color: whitesmoke;
+    border: 2px outset red;
+}
+#cartHyperlink{
+    text-decoration: none;
+}
+
+
+
+#currentCat {
+    grid-area: currentCat;
+    height: 10vh;
+    text-shadow: 2px 1px burlywood;
+}
+#pespem{
+    text-decoration: underline whitesmoke;
+}
+#searchCart {
+    grid-area: searchCart;
+    height: 10vh;
+    align-content: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#list {
+    grid-area: list;
+    height: auto;
+    text-align: center;
+    align-content: normal;
+    display: flex;
+    flex-flow: column;
+
+}
+
+#main {
+    grid-area: main;
+    width: 100%;
+    height: 40vh;
+    background-image: url("../images/mainPic.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    align-content: normal;
+}
+
+#greet{
+    border: 2px outset red;
+    height: 10%;
+    width: auto;
+    margin-right: 20%;
+}
+#currentCategory{
+    margin: 0.5rem;
+}
+#additional {
+    grid-area: additional;
+    height: 20vh;
+}
+
+#products {
+    height: auto;
+    grid-area: products;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+#cartPhoto {
+    width: 2rem;
+    height: auto;
+
+}
+
+#magnifyingGlass {
+    width: 2rem;
+    height: auto;
+}
+#cartcart{
+    border: none;
+    position: relative;
+}
+#magnify{
+    border: none;
+}

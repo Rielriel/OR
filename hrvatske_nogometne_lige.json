@@ -1,38 +1,760 @@
-{"Naziv" : "HNK Hajduk Split", "Podatci" : {"Nadimak" : "Bili", "Stadion" : "Stadion Poljud", "Mjesto" : "Split", "GodinaOsnutka" : 1911, "Predsjednik" : "Ivan Bilić", "Trener" : "Gennaro Gattuso", "NavijačkaSkupina" : "Torcida", "BojaDresa" : "Bijela", "PrvakHrvatske" : 6, "Liga" : {"NazivLige" : "SuperSport HNL", "Rang" : 1, "BrojKlubova" : 10, "Krugovi" : 4}}}
-{"Naziv" : "HNK Rijeka", "Podatci" : {"Nadimak" : "Riječki bijeli", "Stadion" : "Stadion Rujevica", "Mjesto" : "Rijeka", "GodinaOsnutka" : 1946, "Predsjednik" : "Damir Mišković", "Trener" : "Radomir Đalović", "NavijačkaSkupina" : "Armada", "BojaDresa" : "Bijela", "PrvakHrvatske" : 1, "Liga" : {"NazivLige" : "SuperSport HNL", "Rang" : 1, "BrojKlubova" : 10, "Krugovi" : 4}}}
-{"Naziv" : "GNK Dinamo Zagreb", "Podatci" : {"Nadimak" : "Plavi", "Stadion" : "Stadion Maksimir", "Mjesto" : "Zagreb", "GodinaOsnutka" : 1945, "Predsjednik" : "Velimir Zajec", "Trener" : "Nenad Bjelica", "NavijačkaSkupina" : "Bad Blue Boys", "BojaDresa" : "Plava", "PrvakHrvatske" : 25, "Liga" : {"NazivLige" : "SuperSport HNL", "Rang" : 1, "BrojKlubova" : 10, "Krugovi" : 4}}}
-{"Naziv" : "NK Varaždin", "Podatci" : {"Nadimak" : "Varaždinci", "Stadion" : "Stadion Varteks", "Mjesto" : "Varaždin", "GodinaOsnutka" : 1931, "Predsjednik" : "Dražen Vitez", "Trener" : "Nikola Šafarić", "NavijačkaSkupina" : "White Stones", "BojaDresa" : "Plavo-bijela", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport HNL", "Rang" : 1, "BrojKlubova" : 10, "Krugovi" : 4}}}
-{"Naziv" : "NK Osijek", "Podatci" : {"Nadimak" : "Bijelo-plavi", "Stadion" : "Stadion Opus Arena", "Mjesto" : "Osijek", "GodinaOsnutka" : 1947, "Predsjednik" : "Ferenc Sakalj", "Trener" : "Federico Coppitelli", "NavijačkaSkupina" : "Kohorta", "BojaDresa" : "Plavo-bijela", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport HNL", "Rang" : 1, "BrojKlubova" : 10, "Krugovi" : 4}}}
-{"Naziv" : "NK Istra 1961", "Podatci" : {"Nadimak" : "Zeleno-žuti", "Stadion" : "Stadion Aldo Drosina", "Mjesto" : "Pula", "GodinaOsnutka" : 1948, "Predsjednik" : "Branko Devide Vincenti", "Trener" : "Paolo Tramezzani", "NavijačkaSkupina" : "Demoni", "BojaDresa" : "Zelena-žuta", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport HNL", "Rang" : 1, "BrojKlubova" : 10, "Krugovi" : 4}}}
-{"Naziv" : "HNK Šibenik", "Podatci" : {"Nadimak" : "Šibenčani", "Stadion" : "Stadion Šubićevac", "Mjesto" : "Šibenik", "GodinaOsnutka" : 1932, "Predsjednik" : "Željko Karajica", "Trener" : "Marko Kartelo", "NavijačkaSkupina" : "Funcuti", "BojaDresa" : "Narančasta", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport HNL", "Rang" : 1, "BrojKlubova" : 10, "Krugovi" : 4}}}
-{"Naziv" : "NK Lokomotiva Zagreb", "Podatci" : {"Nadimak" : "Lokosi", "Stadion" : "Stadion Kranjčevićeva", "Mjesto" : "Zagreb", "GodinaOsnutka" : 1914, "Predsjednik" : "Miroslav Gluhinić", "Trener" : "Silvijo Čabraja", "NavijačkaSkupina" : "Lokosi", "BojaDresa" : "Plavo-bijela", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport HNL", "Rang" : 1, "BrojKlubova" : 10, "Krugovi" : 4}}}
-{"Naziv" : "HNK Gorica", "Podatci" : {"Nadimak" : "Goričani", "Stadion" : "Stadion Radnik", "Mjesto" : "Velika Gorica", "GodinaOsnutka" : 2009, "Predsjednik" : "Nenad Črnko", "Trener" : "Marijo Carević", "NavijačkaSkupina" : "Šljakeri", "BojaDresa" : "Crvena", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport HNL", "Rang" : 1, "BrojKlubova" : 10, "Krugovi" : 4}}}
-{"Naziv" : "NK Slaven Belupo", "Podatci" : {"Nadimak" : "Farmaceuti", "Stadion" : "Stadion Ivan Kušek Apaš", "Mjesto" : "Koprivnica", "GodinaOsnutka" : 1912, "Predsjednik" : "Robert Markulin", "Trener" : "Marijo Kovačević", "NavijačkaSkupina" : "Podravske štuke", "BojaDresa" : "Plavo-bijela", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport HNL", "Rang" : 1, "BrojKlubova" : 10, "Krugovi" : 4}}}
-{"Naziv" : "HNK Vukovar 1991", "Podatci" : {"Nadimak" : "Vukovarčani", "Stadion" : "Stadion Borovo Naselje", "Mjesto" : "Vukovar", "GodinaOsnutka" : 2012, "Predsjednik" : "Markus Buzov", "Trener" : "Branko Karačić", "NavijačkaSkupina" : "Vukovar navijači", "BojaDresa" : "Maslinasta", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Prva NL", "Rang" : 2, "BrojKlubova" : 12, "Krugovi" : 3}}}
-{"Naziv" : "NK Opatija", "Podatci" : {"Nadimak" : "Opatijci", "Stadion" : "Stadion Kantrida", "Mjesto" : "Opatija", "GodinaOsnutka" : 1911, "Predsjednik" : "Robert Perčić", "Trener" : "Zoran Bogolin", "NavijačkaSkupina" : "Pešekani", "BojaDresa" : "Crno-bijela", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Prva NL", "Rang" : 2, "BrojKlubova" : 12, "Krugovi" : 3}}}
-{"Naziv" : "NK Dubrava Tim Kabel", "Podatci" : {"Nadimak" : "Dubrava", "Stadion" : "Stadion Grana Klaka", "Mjesto" : "Zagreb", "GodinaOsnutka" : 1945, "Predsjednik" : "Roko Ivanović", "Trener" : "Davor Mladina", "NavijačkaSkupina" : "Rebelsi", "BojaDresa" : "Ljubičasta", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Prva NL", "Rang" : 2, "BrojKlubova" : 12, "Krugovi" : 3}}}
-{"Naziv" : "NK Sesvete", "Podatci" : {"Nadimak" : "Sesvete", "Stadion" : "Stadion Sveti Josip Radnik", "Mjesto" : "Sesvete", "GodinaOsnutka" : 1941, "Predsjednik" : "Pero Karatović", "Trener" : "Mario Rac", "NavijačkaSkupina" : "Sesvećani", "BojaDresa" : "Crveno-crna", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Prva NL", "Rang" : 2, "BrojKlubova" : 12, "Krugovi" : 3}}}
-{"Naziv" : "NK Croatia Zmijavci", "Podatci" : {"Nadimak" : "Zmijavčani", "Stadion" : "Stadion Marijan Šuto", "Mjesto" : "Zmijavci", "GodinaOsnutka" : 1974, "Predsjednik" : "Ivan Piplica", "Trener" : "Goran Radeljić", "NavijačkaSkupina" : "Zmijavci navijači", "BojaDresa" : "Crveno-bijela", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Prva NL", "Rang" : 2, "BrojKlubova" : 12, "Krugovi" : 3}}}
-{"Naziv" : "HNK Cibalia", "Podatci" : {"Nadimak" : "Nebesko-plavi", "Stadion" : "Stadion Cibalia", "Mjesto" : "Vinkovci", "GodinaOsnutka" : 1919, "Predsjednik" : "Damir Mustapić", "Trener" : "Ivan Karaula", "NavijačkaSkupina" : "Ultras Vinkovci", "BojaDresa" : "Plava", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Prva NL", "Rang" : 2, "BrojKlubova" : 12, "Krugovi" : 3}}}
-{"Naziv" : "HNK Orijent", "Podatci" : {"Nadimak" : "Sušačani", "Stadion" : "Stadion Krimeja", "Mjesto" : "Rijeka", "GodinaOsnutka" : 1919, "Predsjednik" : "Saša Matijaš", "Trener" : "Ivan Šušnjić", "NavijačkaSkupina" : "Red Fuckers", "BojaDresa" : "Crvena", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Prva NL", "Rang" : 2, "BrojKlubova" : 12, "Krugovi" : 3}}}
-{"Naziv" : "NK Rudeš", "Podatci" : {"Nadimak" : "Rudešani", "Stadion" : "Stadion Rudeš", "Mjesto" : "Zagreb", "GodinaOsnutka" : 1957, "Predsjednik" : "Josip Joe Šimunić", "Trener" : "Samir Toplak", "NavijačkaSkupina" : "Rudeš Boys", "BojaDresa" : "Plava", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Prva NL", "Rang" : 2, "BrojKlubova" : 12, "Krugovi" : 3}}}
-{"Naziv" : "NK Jarun", "Podatci" : {"Nadimak" : "Jarun", "Stadion" : "Stadion Jarun", "Mjesto" : "Zagreb", "GodinaOsnutka" : 1921, "Predsjednik" : "Mate Bekavac", "Trener" : "Jerko Leko", "NavijačkaSkupina" : "Jarun Ultras", "BojaDresa" : "Plava", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Prva NL", "Rang" : 2, "BrojKlubova" : 12, "Krugovi" : 3}}}
-{"Naziv" : "NK Dugopolje", "Podatci" : {"Nadimak" : "Bijeli", "Stadion" : "Stadion Hrvatski vitezovi", "Mjesto" : "Dugopolje", "GodinaOsnutka" : 1952, "Predsjednik" : "Mario Smodlaka", "Trener" : "Mirko Labrović", "NavijačkaSkupina" : "Dugopolje navijači", "BojaDresa" : "Bijela", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Prva NL", "Rang" : 2, "BrojKlubova" : 12, "Krugovi" : 3}}}
-{"Naziv" : "NK BSK Bijelo Brdo", "Podatci" : {"Nadimak" : "BSK", "Stadion" : "Stadion BSK", "Mjesto" : "Bijelo Brdo", "GodinaOsnutka" : 1935, "Predsjednik" : "Jovo Vuković", "Trener" : "Igor Budiša", "NavijačkaSkupina" : "BSK navijači", "BojaDresa" : "Plavo-žuta", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Prva NL", "Rang" : 2, "BrojKlubova" : 12, "Krugovi" : 3}}}
-{"Naziv" : "NK Zrinski Osječko", "Podatci" : {"Nadimak" : "Zrinski", "Stadion" : "Stadion Gradski vrt", "Mjesto" : "Osijek", "GodinaOsnutka" : 1970, "Predsjednik" : "Ivan Komak", "Trener" : "Marko Vukčević", "NavijačkaSkupina" : "Zrinski navijači", "BojaDresa" : "Crvena", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Prva NL", "Rang" : 2, "BrojKlubova" : 12, "Krugovi" : 3}}}
-{"Naziv" : "NK Karlovac 1919", "Podatci" : {"Nadimak" : "Plavo-bijeli", "Stadion" : "Stadion Branko Čavlović Čavlek", "Mjesto" : "Karlovac", "GodinaOsnutka" : 1919, "Predsjednik" : "Bruno Furač", "Trener" : "Igor Pamić", "NavijačkaSkupina" : "Gademz Karlovac", "BojaDresa" : "Plavo-bijela", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Druga NL", "Rang" : 3, "BrojKlubova" : 16, "Krugovi" : 2}}}
-{"Naziv" : "NK Mladost Ždralovi", "Podatci" : {"Nadimak" : "Ždralovčani", "Stadion" : "Stadion Brdo", "Mjesto" : "Ždralovi", "GodinaOsnutka" : 1933, "Predsjednik" : "Vjekoslav Ćalušić", "Trener" : "Tihomir Bradić", "NavijačkaSkupina" : "Ekipa s brda", "BojaDresa" : "Crvena", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Druga NL", "Rang" : 3, "BrojKlubova" : 16, "Krugovi" : 2}}}
-{"Naziv" : "NK Jadran-LP", "Podatci" : {"Nadimak" : "Jadranaši", "Stadion" : "Stadion Jadranovo", "Mjesto" : "Ploče", "GodinaOsnutka" : 1959, "Predsjednik" : "Tihomir Krstičević", "Trener" : "Mišo Krstičević", "NavijačkaSkupina" : "Trlilule", "BojaDresa" : "Plava", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Druga NL", "Rang" : 3, "BrojKlubova" : 16, "Krugovi" : 2}}}
-{"Naziv" : "NK Bjelovar", "Podatci" : {"Nadimak" : "Bjelovarčani", "Stadion" : "Gradski stadion Bjelovar", "Mjesto" : "Bjelovar", "GodinaOsnutka" : 1908, "Predsjednik" : "Ivan Ščrbačić", "Trener" : "Tomislav Mikulić", "NavijačkaSkupina" : "Torcida Bjelovar", "BojaDresa" : "Plavo-bijela", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Druga NL", "Rang" : 3, "BrojKlubova" : 16, "Krugovi" : 2}}}
-{"Naziv" : "NK Kustošija", "Podatci" : {"Nadimak" : "Kusta", "Stadion" : "Stadion Kustošija", "Mjesto" : "Zagreb", "GodinaOsnutka" : 1929, "Predsjednik" : "Branimir Majdak", "Trener" : "Perica Vidak", "NavijačkaSkupina" : "Kustošija navijači", "BojaDresa" : "Crveno-crna", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Druga NL", "Rang" : 3, "BrojKlubova" : 16, "Krugovi" : 2}}}
-{"Naziv" : "NK Solin", "Podatci" : {"Nadimak" : "Modri-Žuti", "Stadion" : "Stadion pokraj Jadra", "Mjesto" : "Solin", "GodinaOsnutka" : 1919, "Predsjednik" : "Ivica Rakušić", "Trener" : "Marin Oršulić", "NavijačkaSkupina" : "Solin navijači", "BojaDresa" : "Plavo-žuta", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Druga NL", "Rang" : 3, "BrojKlubova" : 16, "Krugovi" : 2}}}
-{"Naziv" : "NK Dugo Selo", "Podatci" : {"Nadimak" : "Dugoselčani", "Stadion" : "Gradski stadion", "Mjesto" : "Dugo Selo", "GodinaOsnutka" : 1923, "Predsjednik" : "Damir Fintić", "Trener" : "Ivan Klarić", "NavijačkaSkupina" : "Blue Boys Dugo Selo", "BojaDresa" : "Plava", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Druga NL", "Rang" : 3, "BrojKlubova" : 16, "Krugovi" : 2}}}
-{"Naziv" : "HNK Segesta", "Podatci" : {"Nadimak" : "Stara dama", "Stadion" : "Gradski stadion", "Mjesto" : "Sisak", "GodinaOsnutka" : 1906, "Predsjednik" : "Ervin Mehinović", "Trener" : "Zoran Buinac", "NavijačkaSkupina" : "Antitalenti", "BojaDresa" : "Crveno-bijela", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Druga NL", "Rang" : 3, "BrojKlubova" : 16, "Krugovi" : 2}}}
-{"Naziv" : "NK Radnik Križevci", "Podatci" : {"Nadimak" : "Radnik", "Stadion" : "Gradski stadion", "Mjesto" : "Križevci", "GodinaOsnutka" : 1909, "Predsjednik" : "Drago Črček", "Trener" : "Damir Milinović", "NavijačkaSkupina" : "Radnik navijači", "BojaDresa" : "Plava", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Druga NL", "Rang" : 3, "BrojKlubova" : 16, "Krugovi" : 2}}}
-{"Naziv" : "NK Hrvace", "Podatci" : {"Nadimak" : "Hrvace", "Stadion" : "Gradski stadion", "Mjesto" : "Hrvace", "GodinaOsnutka" : 1997, "Predsjednik" : "Stipe Doljanin", "Trener" : "Grgica Kovač", "NavijačkaSkupina" : "Hrvace navijači", "BojaDresa" : "Crvena", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Druga NL", "Rang" : 3, "BrojKlubova" : 16, "Krugovi" : 2}}}
-{"Naziv" : "NK Trnje", "Podatci" : {"Nadimak" : "Trnjani", "Stadion" : "Stadion NK Trnje", "Mjesto" : "Zagreb", "GodinaOsnutka" : 1924, "Predsjednik" : "Jakov Sivrić", "Trener" : "Srećko Lušić", "NavijačkaSkupina" : "Trnje navijači", "BojaDresa" : "Plava", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Druga NL", "Rang" : 3, "BrojKlubova" : 16, "Krugovi" : 2}}}
-{"Naziv" : "NK Uljanik", "Podatci" : {"Nadimak" : "Uljanil", "Stadion" : "SRC Uljanik Veruda", "Mjesto" : "Pula", "GodinaOsnutka" : 2003, "Predsjednik" : "Toni Draguzet", "Trener" : "Sergej Banović", "NavijačkaSkupina" : "Uljanik navijači", "BojaDresa" : "Plavo-bijela", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Druga NL", "Rang" : 3, "BrojKlubova" : 16, "Krugovi" : 2}}}
-{"Naziv" : "NK Hrvatski dragovoljac", "Podatci" : {"Nadimak" : "Crni", "Stadion" : "ŠNC Stjepan Spajić", "Mjesto" : "Zagreb", "GodinaOsnutka" : 1975, "Predsjednik" : "Berislav Gluić", "Trener" : "Mladen Stipković", "NavijačkaSkupina" : "Crni ratnici", "BojaDresa" : "Crna", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Druga NL", "Rang" : 3, "BrojKlubova" : 16, "Krugovi" : 2}}}
-{"Naziv" : "NK Grobničan", "Podatci" : {"Nadimak" : "Grobničan", "Stadion" : "Mavrinci", "Mjesto" : "Čavle", "GodinaOsnutka" : 1932, "Predsjednik" : "Damir Batarelo", "Trener" : "Predrag Stilinović", "NavijačkaSkupina" : "Grobničan navijači", "BojaDresa" : "Crvena", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Druga NL", "Rang" : 3, "BrojKlubova" : 16, "Krugovi" : 2}}}
-{"Naziv" : "NK Marsonia", "Podatci" : {"Nadimak" : "Marsa", "Stadion" : "Stadion Stanko Vlainić-Dida", "Mjesto" : "Slavonski Brod", "GodinaOsnutka" : 1909, "Predsjednik" : "Dubravko Galović", "Trener" : "Josip Markovinović", "NavijačkaSkupina" : "Brodska legija", "BojaDresa" : "Crna", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Druga NL", "Rang" : 3, "BrojKlubova" : 16, "Krugovi" : 2}}}
-{"Naziv" : "NK Jadran-Poreč", "Podatci" : {"Nadimak" : "Jadranaši", "Stadion" : "Stadion Veli Jože", "Mjesto" : "Poreč", "GodinaOsnutka" : 1948, "Predsjednik" : "Edvard Ribarić", "Trener" : "Blaž Bugarin", "NavijačkaSkupina" : "Šajete Boys", "BojaDresa" : "Plavo-bijela", "PrvakHrvatske" : 0, "Liga" : {"NazivLige" : "SuperSport Druga NL", "Rang" : 3, "BrojKlubova" : 16, "Krugovi" : 2}}}
+[{
+    "Naziv": "HNK Hajduk Split",
+    "Podatci": {
+        "Nadimak": "Bili",
+        "Stadion": "Stadion Poljud",
+        "Mjesto": "Split",
+        "GodinaOsnutka": 1911,
+        "Predsjednik": "Ivan Bilić",
+        "Trener": "Gennaro Gattuso",
+        "NavijačkaSkupina": "Torcida",
+        "BojaDresa": "Bijela",
+        "PrvakHrvatske": 6,
+        "Liga": {
+            "NazivLige": "SuperSport HNL",
+            "Rang": 1,
+            "BrojKlubova": 10,
+            "Krugovi": 4
+        }
+    }
+},
+{
+    "Naziv": "HNK Rijeka",
+    "Podatci": {
+        "Nadimak": "Riječki bijeli",
+        "Stadion": "Stadion Rujevica",
+        "Mjesto": "Rijeka",
+        "GodinaOsnutka": 1946,
+        "Predsjednik": "Damir Mišković",
+        "Trener": "Radomir Đalović",
+        "NavijačkaSkupina": "Armada",
+        "BojaDresa": "Bijela",
+        "PrvakHrvatske": 1,
+        "Liga": {
+            "NazivLige": "SuperSport HNL",
+            "Rang": 1,
+            "BrojKlubova": 10,
+            "Krugovi": 4
+        }
+    }
+},
+{
+    "Naziv": "GNK Dinamo Zagreb",
+    "Podatci": {
+        "Nadimak": "Plavi",
+        "Stadion": "Stadion Maksimir",
+        "Mjesto": "Zagreb",
+        "GodinaOsnutka": 1945,
+        "Predsjednik": "Velimir Zajec",
+        "Trener": "Nenad Bjelica",
+        "NavijačkaSkupina": "Bad Blue Boys",
+        "BojaDresa": "Plava",
+        "PrvakHrvatske": 25,
+        "Liga": {
+            "NazivLige": "SuperSport HNL",
+            "Rang": 1,
+            "BrojKlubova": 10,
+            "Krugovi": 4
+        }
+    }
+},
+{
+    "Naziv": "NK Varaždin",
+    "Podatci": {
+        "Nadimak": "Varaždinci",
+        "Stadion": "Stadion Varteks",
+        "Mjesto": "Varaždin",
+        "GodinaOsnutka": 1931,
+        "Predsjednik": "Dražen Vitez",
+        "Trener": "Nikola Šafarić",
+        "NavijačkaSkupina": "White Stones",
+        "BojaDresa": "Plavo-bijela",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport HNL",
+            "Rang": 1,
+            "BrojKlubova": 10,
+            "Krugovi": 4
+        }
+    }
+},
+{
+    "Naziv": "NK Osijek",
+    "Podatci": {
+        "Nadimak": "Bijelo-plavi",
+        "Stadion": "Stadion Opus Arena",
+        "Mjesto": "Osijek",
+        "GodinaOsnutka": 1947,
+        "Predsjednik": "Ferenc Sakalj",
+        "Trener": "Federico Coppitelli",
+        "NavijačkaSkupina": "Kohorta",
+        "BojaDresa": "Plavo-bijela",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport HNL",
+            "Rang": 1,
+            "BrojKlubova": 10,
+            "Krugovi": 4
+        }
+    }
+},
+{
+    "Naziv": "NK Istra 1961",
+    "Podatci": {
+        "Nadimak": "Zeleno-žuti",
+        "Stadion": "Stadion Aldo Drosina",
+        "Mjesto": "Pula",
+        "GodinaOsnutka": 1948,
+        "Predsjednik": "Branko Devide Vincenti",
+        "Trener": "Paolo Tramezzani",
+        "NavijačkaSkupina": "Demoni",
+        "BojaDresa": "Zelena-žuta",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport HNL",
+            "Rang": 1,
+            "BrojKlubova": 10,
+            "Krugovi": 4
+        }
+    }
+},
+{
+    "Naziv": "HNK Šibenik",
+    "Podatci": {
+        "Nadimak": "Šibenčani",
+        "Stadion": "Stadion Šubićevac",
+        "Mjesto": "Šibenik",
+        "GodinaOsnutka": 1932,
+        "Predsjednik": "Željko Karajica",
+        "Trener": "Marko Kartelo",
+        "NavijačkaSkupina": "Funcuti",
+        "BojaDresa": "Narančasta",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport HNL",
+            "Rang": 1,
+            "BrojKlubova": 10,
+            "Krugovi": 4
+        }
+    }
+},
+{
+    "Naziv": "NK Lokomotiva Zagreb",
+    "Podatci": {
+        "Nadimak": "Lokosi",
+        "Stadion": "Stadion Kranjčevićeva",
+        "Mjesto": "Zagreb",
+        "GodinaOsnutka": 1914,
+        "Predsjednik": "Miroslav Gluhinić",
+        "Trener": "Silvijo Čabraja",
+        "NavijačkaSkupina": "Lokosi",
+        "BojaDresa": "Plavo-bijela",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport HNL",
+            "Rang": 1,
+            "BrojKlubova": 10,
+            "Krugovi": 4
+        }
+    }
+},
+{
+    "Naziv": "HNK Gorica",
+    "Podatci": {
+        "Nadimak": "Goričani",
+        "Stadion": "Stadion Radnik",
+        "Mjesto": "Velika Gorica",
+        "GodinaOsnutka": 2009,
+        "Predsjednik": "Nenad Črnko",
+        "Trener": "Marijo Carević",
+        "NavijačkaSkupina": "Šljakeri",
+        "BojaDresa": "Crvena",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport HNL",
+            "Rang": 1,
+            "BrojKlubova": 10,
+            "Krugovi": 4
+        }
+    }
+},
+{
+    "Naziv": "NK Slaven Belupo",
+    "Podatci": {
+        "Nadimak": "Farmaceuti",
+        "Stadion": "Stadion Ivan Kušek Apaš",
+        "Mjesto": "Koprivnica",
+        "GodinaOsnutka": 1912,
+        "Predsjednik": "Robert Markulin",
+        "Trener": "Marijo Kovačević",
+        "NavijačkaSkupina": "Podravske štuke",
+        "BojaDresa": "Plavo-bijela",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport HNL",
+            "Rang": 1,
+            "BrojKlubova": 10,
+            "Krugovi": 4
+        }
+    }
+},
+{
+    "Naziv": "HNK Vukovar 1991",
+    "Podatci": {
+        "Nadimak": "Vukovarčani",
+        "Stadion": "Stadion Borovo Naselje",
+        "Mjesto": "Vukovar",
+        "GodinaOsnutka": 2012,
+        "Predsjednik": "Markus Buzov",
+        "Trener": "Branko Karačić",
+        "NavijačkaSkupina": "Vukovar navijači",
+        "BojaDresa": "Maslinasta",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Prva NL",
+            "Rang": 2,
+            "BrojKlubova": 12,
+            "Krugovi": 3
+        }
+    }
+},
+{
+    "Naziv": "NK Opatija",
+    "Podatci": {
+        "Nadimak": "Opatijci",
+        "Stadion": "Stadion Kantrida",
+        "Mjesto": "Opatija",
+        "GodinaOsnutka": 1911,
+        "Predsjednik": "Robert Perčić",
+        "Trener": "Zoran Bogolin",
+        "NavijačkaSkupina": "Pešekani",
+        "BojaDresa": "Crno-bijela",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Prva NL",
+            "Rang": 2,
+            "BrojKlubova": 12,
+            "Krugovi": 3
+        }
+    }
+},
+{
+    "Naziv": "NK Dubrava Tim Kabel",
+    "Podatci": {
+        "Nadimak": "Dubrava",
+        "Stadion": "Stadion Grana Klaka",
+        "Mjesto": "Zagreb",
+        "GodinaOsnutka": 1945,
+        "Predsjednik": "Roko Ivanović",
+        "Trener": "Davor Mladina",
+        "NavijačkaSkupina": "Rebelsi",
+        "BojaDresa": "Ljubičasta",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Prva NL",
+            "Rang": 2,
+            "BrojKlubova": 12,
+            "Krugovi": 3
+        }
+    }
+},
+{
+    "Naziv": "NK Sesvete",
+    "Podatci": {
+        "Nadimak": "Sesvete",
+        "Stadion": "Stadion Sveti Josip Radnik",
+        "Mjesto": "Sesvete",
+        "GodinaOsnutka": 1941,
+        "Predsjednik": "Pero Karatović",
+        "Trener": "Mario Rac",
+        "NavijačkaSkupina": "Sesvećani",
+        "BojaDresa": "Crveno-crna",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Prva NL",
+            "Rang": 2,
+            "BrojKlubova": 12,
+            "Krugovi": 3
+        }
+    }
+},
+{
+    "Naziv": "NK Croatia Zmijavci",
+    "Podatci": {
+        "Nadimak": "Zmijavčani",
+        "Stadion": "Stadion Marijan Šuto",
+        "Mjesto": "Zmijavci",
+        "GodinaOsnutka": 1974,
+        "Predsjednik": "Ivan Piplica",
+        "Trener": "Goran Radeljić",
+        "NavijačkaSkupina": "Zmijavci navijači",
+        "BojaDresa": "Crveno-bijela",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Prva NL",
+            "Rang": 2,
+            "BrojKlubova": 12,
+            "Krugovi": 3
+        }
+    }
+},
+{
+    "Naziv": "HNK Cibalia",
+    "Podatci": {
+        "Nadimak": "Nebesko-plavi",
+        "Stadion": "Stadion Cibalia",
+        "Mjesto": "Vinkovci",
+        "GodinaOsnutka": 1919,
+        "Predsjednik": "Damir Mustapić",
+        "Trener": "Ivan Karaula",
+        "NavijačkaSkupina": "Ultras Vinkovci",
+        "BojaDresa": "Plava",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Prva NL",
+            "Rang": 2,
+            "BrojKlubova": 12,
+            "Krugovi": 3
+        }
+    }
+},
+{
+    "Naziv": "HNK Orijent",
+    "Podatci": {
+        "Nadimak": "Sušačani",
+        "Stadion": "Stadion Krimeja",
+        "Mjesto": "Rijeka",
+        "GodinaOsnutka": 1919,
+        "Predsjednik": "Saša Matijaš",
+        "Trener": "Ivan Šušnjić",
+        "NavijačkaSkupina": "Red Fuckers",
+        "BojaDresa": "Crvena",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Prva NL",
+            "Rang": 2,
+            "BrojKlubova": 12,
+            "Krugovi": 3
+        }
+    }
+},
+{
+    "Naziv": "NK Rudeš",
+    "Podatci": {
+        "Nadimak": "Rudešani",
+        "Stadion": "Stadion Rudeš",
+        "Mjesto": "Zagreb",
+        "GodinaOsnutka": 1957,
+        "Predsjednik": "Josip Joe Šimunić",
+        "Trener": "Samir Toplak",
+        "NavijačkaSkupina": "Rudeš Boys",
+        "BojaDresa": "Plava",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Prva NL",
+            "Rang": 2,
+            "BrojKlubova": 12,
+            "Krugovi": 3
+        }
+    }
+},
+{
+    "Naziv": "NK Jarun",
+    "Podatci": {
+        "Nadimak": "Jarun",
+        "Stadion": "Stadion Jarun",
+        "Mjesto": "Zagreb",
+        "GodinaOsnutka": 1921,
+        "Predsjednik": "Mate Bekavac",
+        "Trener": "Jerko Leko",
+        "NavijačkaSkupina": "Jarun Ultras",
+        "BojaDresa": "Plava",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Prva NL",
+            "Rang": 2,
+            "BrojKlubova": 12,
+            "Krugovi": 3
+        }
+    }
+},
+{
+    "Naziv": "NK Dugopolje",
+    "Podatci": {
+        "Nadimak": "Bijeli",
+        "Stadion": "Stadion Hrvatski vitezovi",
+        "Mjesto": "Dugopolje",
+        "GodinaOsnutka": 1952,
+        "Predsjednik": "Mario Smodlaka",
+        "Trener": "Mirko Labrović",
+        "NavijačkaSkupina": "Dugopolje navijači",
+        "BojaDresa": "Bijela",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Prva NL",
+            "Rang": 2,
+            "BrojKlubova": 12,
+            "Krugovi": 3
+        }
+    }
+},
+{
+    "Naziv": "NK BSK Bijelo Brdo",
+    "Podatci": {
+        "Nadimak": "BSK",
+        "Stadion": "Stadion BSK",
+        "Mjesto": "Bijelo Brdo",
+        "GodinaOsnutka": 1935,
+        "Predsjednik": "Jovo Vuković",
+        "Trener": "Igor Budiša",
+        "NavijačkaSkupina": "BSK navijači",
+        "BojaDresa": "Plavo-žuta",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Prva NL",
+            "Rang": 2,
+            "BrojKlubova": 12,
+            "Krugovi": 3
+        }
+    }
+},
+{
+    "Naziv": "NK Zrinski Osječko",
+    "Podatci": {
+        "Nadimak": "Zrinski",
+        "Stadion": "Stadion Gradski vrt",
+        "Mjesto": "Osijek",
+        "GodinaOsnutka": 1970,
+        "Predsjednik": "Ivan Komak",
+        "Trener": "Marko Vukčević",
+        "NavijačkaSkupina": "Zrinski navijači",
+        "BojaDresa": "Crvena",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Prva NL",
+            "Rang": 2,
+            "BrojKlubova": 12,
+            "Krugovi": 3
+        }
+    }
+},
+{
+    "Naziv": "NK Karlovac 1919",
+    "Podatci": {
+        "Nadimak": "Plavo-bijeli",
+        "Stadion": "Stadion Branko Čavlović Čavlek",
+        "Mjesto": "Karlovac",
+        "GodinaOsnutka": 1919,
+        "Predsjednik": "Bruno Furač",
+        "Trener": "Igor Pamić",
+        "NavijačkaSkupina": "Gademz Karlovac",
+        "BojaDresa": "Plavo-bijela",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Druga NL",
+            "Rang": 3,
+            "BrojKlubova": 16,
+            "Krugovi": 2
+        }
+    }
+},
+{
+    "Naziv": "NK Mladost Ždralovi",
+    "Podatci": {
+        "Nadimak": "Ždralovčani",
+        "Stadion": "Stadion Brdo",
+        "Mjesto": "Ždralovi",
+        "GodinaOsnutka": 1933,
+        "Predsjednik": "Vjekoslav Ćalušić",
+        "Trener": "Tihomir Bradić",
+        "NavijačkaSkupina": "Ekipa s brda",
+        "BojaDresa": "Crvena",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Druga NL",
+            "Rang": 3,
+            "BrojKlubova": 16,
+            "Krugovi": 2
+        }
+    }
+},
+{
+    "Naziv": "NK Jadran-LP",
+    "Podatci": {
+        "Nadimak": "Jadranaši",
+        "Stadion": "Stadion Jadranovo",
+        "Mjesto": "Ploče",
+        "GodinaOsnutka": 1959,
+        "Predsjednik": "Tihomir Krstičević",
+        "Trener": "Mišo Krstičević",
+        "NavijačkaSkupina": "Trlilule",
+        "BojaDresa": "Plava",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Druga NL",
+            "Rang": 3,
+            "BrojKlubova": 16,
+            "Krugovi": 2
+        }
+    }
+},
+{
+    "Naziv": "NK Bjelovar",
+    "Podatci": {
+        "Nadimak": "Bjelovarčani",
+        "Stadion": "Gradski stadion Bjelovar",
+        "Mjesto": "Bjelovar",
+        "GodinaOsnutka": 1908,
+        "Predsjednik": "Ivan Ščrbačić",
+        "Trener": "Tomislav Mikulić",
+        "NavijačkaSkupina": "Torcida Bjelovar",
+        "BojaDresa": "Plavo-bijela",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Druga NL",
+            "Rang": 3,
+            "BrojKlubova": 16,
+            "Krugovi": 2
+        }
+    }
+},
+{
+    "Naziv": "NK Kustošija",
+    "Podatci": {
+        "Nadimak": "Kusta",
+        "Stadion": "Stadion Kustošija",
+        "Mjesto": "Zagreb",
+        "GodinaOsnutka": 1929,
+        "Predsjednik": "Branimir Majdak",
+        "Trener": "Perica Vidak",
+        "NavijačkaSkupina": "Kustošija navijači",
+        "BojaDresa": "Crveno-crna",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Druga NL",
+            "Rang": 3,
+            "BrojKlubova": 16,
+            "Krugovi": 2
+        }
+    }
+},
+{
+    "Naziv": "NK Solin",
+    "Podatci": {
+        "Nadimak": "Modri-Žuti",
+        "Stadion": "Stadion pokraj Jadra",
+        "Mjesto": "Solin",
+        "GodinaOsnutka": 1919,
+        "Predsjednik": "Ivica Rakušić",
+        "Trener": "Marin Oršulić",
+        "NavijačkaSkupina": "Solin navijači",
+        "BojaDresa": "Plavo-žuta",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Druga NL",
+            "Rang": 3,
+            "BrojKlubova": 16,
+            "Krugovi": 2
+        }
+    }
+},
+{
+    "Naziv": "NK Dugo Selo",
+    "Podatci": {
+        "Nadimak": "Dugoselčani",
+        "Stadion": "Gradski stadion",
+        "Mjesto": "Dugo Selo",
+        "GodinaOsnutka": 1923,
+        "Predsjednik": "Damir Fintić",
+        "Trener": "Ivan Klarić",
+        "NavijačkaSkupina": "Blue Boys Dugo Selo",
+        "BojaDresa": "Plava",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Druga NL",
+            "Rang": 3,
+            "BrojKlubova": 16,
+            "Krugovi": 2
+        }
+    }
+},
+{
+    "Naziv": "HNK Segesta",
+    "Podatci": {
+        "Nadimak": "Stara dama",
+        "Stadion": "Gradski stadion",
+        "Mjesto": "Sisak",
+        "GodinaOsnutka": 1906,
+        "Predsjednik": "Ervin Mehinović",
+        "Trener": "Zoran Buinac",
+        "NavijačkaSkupina": "Antitalenti",
+        "BojaDresa": "Crveno-bijela",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Druga NL",
+            "Rang": 3,
+            "BrojKlubova": 16,
+            "Krugovi": 2
+        }
+    }
+},
+{
+    "Naziv": "NK Radnik Križevci",
+    "Podatci": {
+        "Nadimak": "Radnik",
+        "Stadion": "Gradski stadion",
+        "Mjesto": "Križevci",
+        "GodinaOsnutka": 1909,
+        "Predsjednik": "Drago Črček",
+        "Trener": "Damir Milinović",
+        "NavijačkaSkupina": "Radnik navijači",
+        "BojaDresa": "Plava",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Druga NL",
+            "Rang": 3,
+            "BrojKlubova": 16,
+            "Krugovi": 2
+        }
+    }
+},
+{
+    "Naziv": "NK Hrvace",
+    "Podatci": {
+        "Nadimak": "Hrvace",
+        "Stadion": "Gradski stadion",
+        "Mjesto": "Hrvace",
+        "GodinaOsnutka": 1997,
+        "Predsjednik": "Stipe Doljanin",
+        "Trener": "Grgica Kovač",
+        "NavijačkaSkupina": "Hrvace navijači",
+        "BojaDresa": "Crvena",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Druga NL",
+            "Rang": 3,
+            "BrojKlubova": 16,
+            "Krugovi": 2
+        }
+    }
+},
+{
+    "Naziv": "NK Trnje",
+    "Podatci": {
+        "Nadimak": "Trnjani",
+        "Stadion": "Stadion NK Trnje",
+        "Mjesto": "Zagreb",
+        "GodinaOsnutka": 1924,
+        "Predsjednik": "Jakov Sivrić",
+        "Trener": "Srećko Lušić",
+        "NavijačkaSkupina": "Trnje navijači",
+        "BojaDresa": "Plava",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Druga NL",
+            "Rang": 3,
+            "BrojKlubova": 16,
+            "Krugovi": 2
+        }
+    }
+},
+{
+    "Naziv": "NK Uljanik",
+    "Podatci": {
+        "Nadimak": "Uljanil",
+        "Stadion": "SRC Uljanik Veruda",
+        "Mjesto": "Pula",
+        "GodinaOsnutka": 2003,
+        "Predsjednik": "Toni Draguzet",
+        "Trener": "Sergej Banović",
+        "NavijačkaSkupina": "Uljanik navijači",
+        "BojaDresa": "Plavo-bijela",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Druga NL",
+            "Rang": 3,
+            "BrojKlubova": 16,
+            "Krugovi": 2
+        }
+    }
+},
+{
+    "Naziv": "NK Hrvatski dragovoljac",
+    "Podatci": {
+        "Nadimak": "Crni",
+        "Stadion": "ŠNC Stjepan Spajić",
+        "Mjesto": "Zagreb",
+        "GodinaOsnutka": 1975,
+        "Predsjednik": "Berislav Gluić",
+        "Trener": "Mladen Stipković",
+        "NavijačkaSkupina": "Crni ratnici",
+        "BojaDresa": "Crna",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Druga NL",
+            "Rang": 3,
+            "BrojKlubova": 16,
+            "Krugovi": 2
+        }
+    }
+},
+{
+    "Naziv": "NK Grobničan",
+    "Podatci": {
+        "Nadimak": "Grobničan",
+        "Stadion": "Mavrinci",
+        "Mjesto": "Čavle",
+        "GodinaOsnutka": 1932,
+        "Predsjednik": "Damir Batarelo",
+        "Trener": "Predrag Stilinović",
+        "NavijačkaSkupina": "Grobničan navijači",
+        "BojaDresa": "Crvena",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Druga NL",
+            "Rang": 3,
+            "BrojKlubova": 16,
+            "Krugovi": 2
+        }
+    }
+},
+{
+    "Naziv": "NK Marsonia",
+    "Podatci": {
+        "Nadimak": "Marsa",
+        "Stadion": "Stadion Stanko Vlainić-Dida",
+        "Mjesto": "Slavonski Brod",
+        "GodinaOsnutka": 1909,
+        "Predsjednik": "Dubravko Galović",
+        "Trener": "Josip Markovinović",
+        "NavijačkaSkupina": "Brodska legija",
+        "BojaDresa": "Crna",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Druga NL",
+            "Rang": 3,
+            "BrojKlubova": 16,
+            "Krugovi": 2
+        }
+    }
+},
+{
+    "Naziv": "NK Jadran-Poreč",
+    "Podatci": {
+        "Nadimak": "Jadranaši",
+        "Stadion": "Stadion Veli Jože",
+        "Mjesto": "Poreč",
+        "GodinaOsnutka": 1948,
+        "Predsjednik": "Edvard Ribarić",
+        "Trener": "Blaž Bugarin",
+        "NavijačkaSkupina": "Šajete Boys",
+        "BojaDresa": "Plavo-bijela",
+        "PrvakHrvatske": 0,
+        "Liga": {
+            "NazivLige": "SuperSport Druga NL",
+            "Rang": 3,
+            "BrojKlubova": 16,
+            "Krugovi": 2
+        }
+    }
+}]
