@@ -4,9 +4,7 @@ import com.postgresql.database.model.Klub;
 import com.postgresql.database.repo.KlubRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -37,39 +35,89 @@ public class KlubController {
 
         searchText = "%" + searchText.toLowerCase() + "%";
 
-        switch (searchField) {
-            case "naziv_liga":
-                return klubRepo.findByNazivLigaContainingIgnoreCase(searchText);
-            case "rang":
-                return klubRepo.findByRangContainingIgnoreCase(searchText);
-            case "broj_klubova":
-                return klubRepo.findByBrojKlubovaContainingIgnoreCase(searchText);
-            case "krugovi":
-                return klubRepo.findByKrugoviContainingIgnoreCase(searchText);
-            case "naziv_klub":
-                return klubRepo.findByNazivKlubContainingIgnoreCase(searchText);
-            case "nadimak":
-                return klubRepo.findByNadimakContainingIgnoreCase(searchText);
-            case "naziv_stadion":
-                return klubRepo.findByNazivStadionContainingIgnoreCase(searchText);
-            case "mjesto":
-                return klubRepo.findByMjestoContainingIgnoreCase(searchText);
-            case "godina_osnutak":
-                return klubRepo.findByGodinaOsnutak(Integer.parseInt(searchText));
-            case "predsjednik":
-                return klubRepo.findByPredsjednikContainingIgnoreCase(searchText);
-            case "trener":
-                return klubRepo.findByTrenerContainingIgnoreCase(searchText);
-            case "navijaci":
-                return klubRepo.findByNavijaciContainingIgnoreCase(searchText);
-            case "boja":
-                return klubRepo.findByBojaContainingIgnoreCase(searchText);
-            case "prvak_hrvatska":
-                return klubRepo.findByPrvakHrvatska(Integer.parseInt(searchText));
-            default:
-                return klubRepo.findByAnyField(searchText);
-        }
+        return switch (searchField) {
+            case "naziv_liga" -> klubRepo.findByNazivLigaContainingIgnoreCase(searchText);
+            case "rang" -> klubRepo.findByRangContainingIgnoreCase(searchText);
+            case "broj_klubova" -> klubRepo.findByBrojKlubovaContainingIgnoreCase(searchText);
+            case "krugovi" -> klubRepo.findByKrugoviContainingIgnoreCase(searchText);
+            case "naziv_klub" -> klubRepo.findByNazivKlubContainingIgnoreCase(searchText);
+            case "nadimak" -> klubRepo.findByNadimakContainingIgnoreCase(searchText);
+            case "naziv_stadion" -> klubRepo.findByNazivStadionContainingIgnoreCase(searchText);
+            case "mjesto" -> klubRepo.findByMjestoContainingIgnoreCase(searchText);
+            case "godina_osnutak" -> klubRepo.findByGodinaOsnutak(Integer.parseInt(searchText));
+            case "predsjednik" -> klubRepo.findByPredsjednikContainingIgnoreCase(searchText);
+            case "trener" -> klubRepo.findByTrenerContainingIgnoreCase(searchText);
+            case "navijaci" -> klubRepo.findByNavijaciContainingIgnoreCase(searchText);
+            case "boja" -> klubRepo.findByBojaContainingIgnoreCase(searchText);
+            case "prvak_hrvatska" -> klubRepo.findByPrvakHrvatska(Integer.parseInt(searchText));
+            default -> klubRepo.findByAnyField(searchText);
+        };
     }
 
+    @GetMapping("/svi")
+    public List<Klub> getAll(
+            @RequestParam(value = "searchText", required = false) String searchText,
+            @RequestParam(value = "searchField", required = false) String searchField) {
+        return klubRepo.findByAnyField(searchText);
+    }
+
+    @GetMapping("/klub/{naziv}")
+    public ResponseEntity<Klub> getKlubByNaziv(@PathVariable String naziv) {
+        Klub klub = klubRepo.findById(naziv).orElse(null);
+        if (klub == null) {
+            return ResponseEntity
+                    .status(404)
+                    .header("Error-Message", "Klub s nazivom " + naziv + " nije pronađen.")
+                    .build();
+        }
+        return ResponseEntity.ok(klub);
+    }
+
+
+
+    @GetMapping("/prva")
+    public List<Klub> getFirst() {
+        return klubRepo.findByRangContainingIgnoreCase(String.valueOf(1));
+    }
+
+    @GetMapping("/druga")
+    public List<Klub> getSecond() {
+        return klubRepo.findByRangContainingIgnoreCase(String.valueOf(2));
+    }
+
+    @GetMapping("/treca")
+    public List<Klub> getThird() {
+        return klubRepo.findByRangContainingIgnoreCase(String.valueOf(3));
+    }
+
+    @PostMapping("/dodaj")
+    public ResponseEntity<String> addKlub(@RequestBody Klub klub) {
+        klubRepo.save(klub);
+        return ResponseEntity.ok("Klub uspješno dodan.");
+    }
+
+
+    @PutMapping("/azuriraj/{naziv}")
+    public ResponseEntity<String> azurirajKlub(@PathVariable String naziv, @RequestBody Klub klub) {
+        if (!klubRepo.existsById(naziv)) {
+            return ResponseEntity.notFound().build();
+        }
+        System.out.println(klub.toString());
+        klub.setNaziv_klub(naziv);
+        klubRepo.save(klub);
+
+        return ResponseEntity.ok("Klub uspješno ažuriran.");
+    }
+
+
+    @DeleteMapping("/obrisi/{naziv}")
+    public ResponseEntity<String> obrisiKlub(@PathVariable String naziv) {
+        if (!klubRepo.existsById(naziv)) {
+            return ResponseEntity.notFound().build();
+        }
+        klubRepo.deleteById(naziv);
+
+        return ResponseEntity.ok("Klub uspješno obrisan.");
+    }
 
 }

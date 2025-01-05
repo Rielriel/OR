@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="license" content="CC0 1.0 Universal (CC0 1.0) Public Domain Dedication">
+    <meta name="author" content="Gabriel Leko">
+    <meta name="dataset-version" content="1.0">
+    <meta name="language" content="hr">
+    <meta name="date" content="2024-10-27">
+    <meta name="description" content="Ovaj skup podataka uključuje informacije o nogometnim ligama i klubovima u Hrvatskoj, uključujući broj liga, broj klubova po ligi i dodatne atribute vezane uz klubove.">
+    <meta name="keywords" content="nogomet, klub, liga, hrvatski nogomet, analiza nogometa">
+    <meta name="dataset-structure" content="Broj liga: 3; Broj klubova prve lige: 10; Broj klubova druge lige: 12; Broj klubova treće lige: 16.">
+    <meta name="attributes" content="Naziv, Nadimak, Stadion, Grad, GodinaOsnutka, Predsjednik, Trener, NavijačkaSkupina, BojaDresa, PrvakHrvatske, Liga, Rang, BrojKlubova, Krugovi">
+    <meta name="formats-available" content=".csv, .json">
+    <meta name="usage-info" content="Ovaj skup podataka može se koristiti za analizu trendova u hrvatskom nogometu, usporedbu klubova, te istraživanje povezanosti između trofeja i uspjeha u ligama.">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.css"/>
+  <script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
+  <link rel="stylesheet" href="styles/index-styles.css">
+  <link rel="stylesheet" href="styles/index-styles-mobile.css"
+        media="screen and (max-width: 1024px)">
+  <title>Hrvatske nogometne lige</title>
+</head>
+<body>
+
+<div id="wrapper">
+
+
+
+
+  <div id="logo"><a href="index.html" id = "indexHyperlink"><img src="images/logo.png" alt="logo" id = "logoPic"></img></a></div>
+
+  <div id="currentCat"><p id="currentCategory">Hrvatske nogometne lige</p></div>
+
+
+
+
+  <br style="clear: both;">
+  <div id="list">
+    <ul id = "categoryList">
+      <p id="category">NAVIGACIJA</p>
+      <li class="izbor"><a class="link" href="index.html">Naslovna stranica</a></li>
+      <li class="izbor"><a class="link" href="form.html">Pretraživanje liga</a></li>
+      <li class="izbor"><a class="link" href="form3.html">Fora info</a></li>
+      <li class="izbor"><a class="link" href="form2.html">Uredi lige</a></li>
+      <li class="izbor"><a class="link"  href="http://www.fer.hr">Web-stranica FER-a</a></li>
+      <li class="izbor"><a class="link" href="http://www.fer.unizg.hr/predmet/or"
+                           onclick="window.open(this.href, '_blank');return false;" >Otvoreno Računarstvo</a></li>
+    </ul>
+
+  </div>
+
+
+  <div id="main">
+    <div id ="greet"> Uživajte u <span id ="pespem">hrvatskim nogometnim ligama</span>! </div>
+  </div>
+  <br style="clear: both;">
+  <div id="additional">
+
+
+    <p>kontakt</p>
+    <p>newsletter</p>
+    <p>pretplati se</p>
+
+  </div>
+  <div>
+    <h1>Upravljanje Klubovima</h1>
+
+    <section>
+      <h2>Dodaj Novi Klub</h2>
+      <form id="formDodaj">
+        <label for="naziv_liga">Naziv Lige:</label>
+        <input type="text" id="naziv_liga" name="naziv_liga" required><br>
+        <label for="rang">Rang:</label>
+        <input type="text" id="rang" name="rang" required><br>
+        <label for="broj_klubova">Broj Klubova:</label>
+        <input type="text" id="broj_klubova" name="broj_klubova" required><br>
+        <label for="krugovi">Krugovi:</label>
+        <input type="text" id="krugovi" name="krugovi" required><br>
+        <label for="naziv_klub">Naziv Kluba:</label>
+        <input type="text" id="naziv_klub" name="naziv_klub" required><br>
+        <label for="nadimak">Nadimak:</label>
+        <input type="text" id="nadimak" name="nadimak" required><br>
+        <label for="naziv_stadion">Naziv Stadiona:</label>
+        <input type="text" id="naziv_stadion" name="naziv_stadion" required><br>
+        <label for="mjesto">Mjesto:</label>
+        <input type="text" id="mjesto" name="mjesto" required><br>
+        <label for="godina_osnutak">Godina Osnutka:</label>
+        <input type="number" id="godina_osnutak" name="godina_osnutak" required><br>
+        <label for="predsjednik">Predsjednik:</label>
+        <input type="text" id="predsjednik" name="predsjednik" required><br>
+        <label for="trener">Trener:</label>
+        <input type="text" id="trener" name="trener" required><br>
+        <label for="navijaci">Navijači:</label>
+        <input type="text" id="navijaci" name="navijaci" required><br>
+        <label for="boja">Boja:</label>
+        <input type="text" id="boja" name="boja" required><br>
+        <label for="prvak_hrvatska">Prvak Hrvatske:</label>
+        <input type="number" id="prvak_hrvatska" name="prvak_hrvatska" required><br>
+        <button type="submit">Dodaj Klub</button>
+    </form>
+  </section>
+  <section>
+    <h2>Ažuriraj Klub</h2>
+    <form id="formAzuriraj">
+      <label for="naziv_liga">Naziv Lige:</label>
+      <input type="text" id="naziv_liga2" name="naziv_liga" required><br>
+      <label for="rang">Rang:</label>
+      <input type="text" id="rang2" name="rang" required><br>
+      <label for="broj_klubova">Broj Klubova:</label>
+      <input type="text" id="broj_klubova2" name="broj_klubova" required><br>
+      <label for="krugovi">Krugovi:</label>
+      <input type="text" id="krugovi2" name="krugovi" required><br>
+      <label for="naziv_klub">Naziv Kluba:</label>
+      <input type="text" id="naziv_klub2" name="naziv_klub" required><br>
+      <label for="nadimak">Nadimak:</label>
+      <input type="text" id="nadimak2" name="nadimak" required><br>
+      <label for="naziv_stadion">Naziv Stadiona:</label>
+      <input type="text" id="naziv_stadion2" name="naziv_stadion" required><br>
+      <label for="mjesto">Mjesto:</label>
+      <input type="text" id="mjesto2" name="mjesto" required><br>
+      <label for="godina_osnutak">Godina Osnutka:</label>
+      <input type="number" id="godina_osnutak2" name="godina_osnutak" required><br>
+      <label for="predsjednik">Predsjednik:</label>
+      <input type="text" id="predsjednik2" name="predsjednik" required><br>
+      <label for="trener">Trener:</label>
+      <input type="text" id="trener2" name="trener" required><br>
+      <label for="navijači">Navijači:</label>
+      <input type="text" id="navijaci2" name="navijači" required><br>
+      <label for="boja">Boja:</label>
+      <input type="text" id="boja2" name="boja" required><br>
+      <label for="prvak_hrvatska">Prvak Hrvatske:</label>
+      <input type="number" id="prvak_hrvatska2" name="prvak_hrvatska" required><br>
+      <button type="submit">Ažuriraj Klub</button>
+  </form>
+</section>
+
+
+    <section>
+        <h2>Obriši Klub</h2>
+        <form id="formObrisi">
+          <label for="naziv_klub">Naziv Kluba:</label>
+          <input type="text" id="naziv_klub_delete" name="naziv_klub" required><br>
+          <button type="submit">Obriši Klub</button>
+      </form>
+    </section>
+
+    <script>
+      const baseUrlDodaj = 'http://localhost:8080/dodaj';
+      const baseUrlAzuriraj = 'http://localhost:8080/azuriraj';
+      const baseUrlObrisi = 'http://localhost:8080/obrisi';
+    
+      async function dodajKlub(event) {
+        event.preventDefault();
+        const formData = new FormData(event.target);
+        const data = Object.fromEntries(formData);
+        try {
+          const response = await fetch(baseUrlDodaj, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+          });
+    
+          if (response.ok) {
+            alert('Klub uspješno dodan!');
+            event.target.reset();
+          } else {
+            alert('Greška pri dodavanju kluba!');
+          }
+        } catch (error) {
+          console.error('Greška:', error);
+          alert('Došlo je do pogreške!');
+        }
+      }
+    
+      async function azurirajKlub(event) {
+  event.preventDefault();
+  const formData = new FormData(event.target);
+  const data = Object.fromEntries(formData);
+
+  try {
+    const response = await fetch(baseUrlAzuriraj+'/'+data.naziv_klub, {
+      method: 'PUT',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-HTTP-Method-Override': 'PUT',
+      },
+      body: JSON.stringify(data),
+    });
+
+    if (response.ok) {
+      alert('Klub uspješno ažuriran!');
+      event.target.reset();
+    } else {
+      alert('Greška pri ažuriranju kluba!');
+    }
+  } catch (error) {
+    console.error('Greška:', error);
+    alert('Došlo je do pogreške!');
+  }
+}
+
+async function obrisiKlub(event) {
+  event.preventDefault();
+  const formData = new FormData(event.target);
+  const nazivKluba = formData.get('delete');
+  const data = Object.fromEntries(formData);
+
+  try {
+    const response = await fetch(baseUrlObrisi+'/'+data.naziv_klub, {
+      method: 'DELETE',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-HTTP-Method-Override': 'DELETE',
+      },
+      body: JSON.stringify({ nazivKluba }),
+    });
+
+    if (response.ok) {
+      alert('Klub uspješno obrisan!');
+      event.target.reset();
+    } else {
+      alert('Greška pri brisanju kluba!');
+    }
+  } catch (error) {
+    console.error('Greška:', error);
+    alert('Došlo je do pogreške!');
+  }
+}
+
+document.getElementById('formDodaj').addEventListener('submit', dodajKlub);
+document.getElementById('formAzuriraj').addEventListener('submit', azurirajKlub);
+document.getElementById('formObrisi').addEventListener('submit', obrisiKlub);
+    </script>
+  </div>
+</div>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
+

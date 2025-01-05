@@ -159,4 +159,25 @@ public class Klub {
     public void setPrvak_hrvatska(int prvak_hrvatska) {
         this.prvak_hrvatska = prvak_hrvatska;
     }
+
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("Klub{");
+        sb.append("naziv_liga='").append(naziv_liga).append('\'');
+        sb.append(", rang='").append(rang).append('\'');
+        sb.append(", broj_klubova='").append(broj_klubova).append('\'');
+        sb.append(", krugovi='").append(krugovi).append('\'');
+        sb.append(", naziv_klub='").append(naziv_klub).append('\'');
+        sb.append(", nadimak='").append(nadimak).append('\'');
+        sb.append(", naziv_stadion='").append(naziv_stadion).append('\'');
+        sb.append(", mjesto='").append(mjesto).append('\'');
+        sb.append(", godina_osnutak=").append(godina_osnutak);
+        sb.append(", predsjednik='").append(predsjednik).append('\'');
+        sb.append(", trener='").append(trener).append('\'');
+        sb.append(", navijači='").append(navijači).append('\'');
+        sb.append(", boja='").append(boja).append('\'');
+        sb.append(", prvak_hrvatska=").append(prvak_hrvatska);
+        sb.append('}');
+        return sb.toString();
+    }
 }

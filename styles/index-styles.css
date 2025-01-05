@@ -67,7 +67,29 @@ div {
     text-decoration: none;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    background-color: whitesmoke;
+    border: 2px solid royalblue;
+}
 
+th, td {
+    padding: 0.5rem;
+    text-align: left;
+    border: 1px solid royalblue;
+}
+
+th {
+    background-color: rgb(232, 234, 251);
+    color: royalblue;
+    font-weight: bold;
+}
+
+td {
+    word-wrap: break-word;
+}
 
 #currentCat {
     grid-area: currentCat;

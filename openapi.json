@@ -1,0 +1,317 @@
+{
+    "openapi": "3.0.3",
+    "info": {
+      "title": "Hrvatske nogometne lige",
+      "description": "API za upravljanje informacijama o hrvatskim nogometnim ligama i klubovima.",
+      "version": "1.0.0",
+      "license": {
+        "name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+      },
+      "contact": {
+        "name": "Gabriel Leko",
+        "email": "gabriel.leko@fer.hr"
+      }
+    },
+    "servers": [
+      {
+        "url": "http://localhost:8080",
+        "description": "Lokalni razvojni server"
+      }
+    ],
+    "paths": {
+      "/dodaj": {
+        "post": {
+          "summary": "Dodaj novi klub",
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Klub"
+                }
+              }
+            }
+          },
+          "responses": {
+            "200": {
+              "description": "Klub uspješno dodan."
+            },
+            "400": {
+              "description": "Greška pri dodavanju kluba."
+            }
+          }
+        }
+      },
+      "/azuriraj/{nazivKlub}": {
+        "put": {
+          "summary": "Ažuriraj postojeći klub",
+          "parameters": [
+            {
+              "name": "nazivKlub",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "string"
+              },
+              "description": "Naziv kluba za ažuriranje"
+            }
+          ],
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Klub"
+                }
+              }
+            }
+          },
+          "responses": {
+            "200": {
+              "description": "Klub uspješno ažuriran."
+            },
+            "400": {
+              "description": "Greška pri ažuriranju kluba."
+            }
+          }
+        }
+      },
+      "/obrisi/{nazivKlub}": {
+        "delete": {
+          "summary": "Obriši postojeći klub",
+          "parameters": [
+            {
+              "name": "nazivKlub",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "string"
+              },
+              "description": "Naziv kluba za brisanje"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Klub uspješno obrisan."
+            },
+            "400": {
+              "description": "Greška pri brisanju kluba."
+            }
+          }
+        }
+      },
+      "/klub": {
+        "get": {
+          "summary": "Pretraga klubova",
+          "parameters": [
+            {
+              "name": "searchText",
+              "in": "query",
+              "required": false,
+              "description": "Tekst za pretragu",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "searchField",
+              "in": "query",
+              "required": false,
+              "description": "Polje za pretragu",
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Lista klubova koja zadovoljava pretragu",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/Klub"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/klub/{naziv}": {
+        "get": {
+          "summary": "Dohvati klub prema nazivu",
+          "parameters": [
+            {
+              "name": "naziv",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "string"
+              },
+              "description": "Naziv kluba"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Klub pronađen",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Klub"
+                  }
+                }
+              }
+            },
+            "404": {
+              "description": "Klub nije pronađen"
+            }
+          }
+        }
+      },
+      "/prva": {
+        "get": {
+          "summary": "Dohvati sve klubove iz prve lige",
+          "responses": {
+            "200": {
+              "description": "Lista klubova iz prve lige",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/Klub"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/druga": {
+        "get": {
+          "summary": "Dohvati sve klubove iz druge lige",
+          "responses": {
+            "200": {
+              "description": "Lista klubova iz druge lige",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/Klub"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/treca": {
+        "get": {
+          "summary": "Dohvati sve klubove iz treće lige",
+          "responses": {
+            "200": {
+              "description": "Lista klubova iz treće lige",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/Klub"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "components": {
+      "schemas": {
+        "Klub": {
+          "type": "object",
+          "properties": {
+            "naziv_liga": {
+              "type": "string",
+              "description": "Naziv lige"
+            },
+            "rang": {
+              "type": "string",
+              "description": "Rang lige/kluba"
+            },
+            "broj_klubova": {
+              "type": "integer",
+              "description": "Broj klubova u ligi"
+            },
+            "krugovi": {
+              "type": "integer",
+              "description": "Broj krugova u ligi"
+            },
+            "naziv_klub": {
+              "type": "string",
+              "description": "Naziv kluba"
+            },
+            "nadimak": {
+              "type": "string",
+              "description": "Nadimak kluba"
+            },
+            "naziv_stadion": {
+              "type": "string",
+              "description": "Naziv stadiona"
+            },
+            "mjesto": {
+              "type": "string",
+              "description": "Mjesto kluba"
+            },
+            "godina_osnutak": {
+              "type": "integer",
+              "description": "Godina osnutka kluba"
+            },
+            "predsjednik": {
+              "type": "string",
+              "description": "Ime predsjednika kluba"
+            },
+            "trener": {
+              "type": "string",
+              "description": "Ime trenera kluba"
+            },
+            "navijaci": {
+              "type": "string",
+              "description": "Naziv navijačke skupine"
+            },
+            "boja": {
+              "type": "string",
+              "description": "Boja dresa kluba"
+            },
+            "prvak_hrvatska": {
+              "type": "integer",
+              "description": "Broj osvojenih prvenstava Hrvatske"
+            }
+          },
+          "required": [
+            "naziv_liga",
+            "rang",
+            "broj_klubova",
+            "krugovi",
+            "naziv_klub",
+            "nadimak",
+            "naziv_stadion",
+            "mjesto",
+            "godina_osnutak",
+            "predsjednik",
+            "trener",
+            "navijaci",
+            "boja",
+            "prvak_hrvatska"
+          ]
+        }
+      }
+    }
+  }
+  
