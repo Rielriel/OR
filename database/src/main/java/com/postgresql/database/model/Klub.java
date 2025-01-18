@@ -1,5 +1,6 @@
 package com.postgresql.database.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -23,6 +24,7 @@ public class Klub {
     private int godina_osnutak;
     private String predsjednik;
     private String trener;
+    @JsonProperty("navijači")
     private String navijači;
     private String boja;
     private int prvak_hrvatska;

@@ -5,5 +5,23 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="database" />
+    <orderEntry type="module-library" exported="">
+      <library name="okta">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/Documents/okta-spring-boot-okta-spring-boot-parent-3.0.7/examples/config-server/src/main/java" />
+          <root url="file://$USER_HOME$/Documents/okta-spring-boot-okta-spring-boot-parent-3.0.7/examples/hosted-login-code-flow/src/main/java" />
+          <root url="file://$USER_HOME$/Documents/okta-spring-boot-okta-spring-boot-parent-3.0.7/examples/redirect-code-flow/src/main/java" />
+          <root url="file://$USER_HOME$/Documents/okta-spring-boot-okta-spring-boot-parent-3.0.7/examples/siw-jquery/src/main/java" />
+          <root url="file://$USER_HOME$/Documents/okta-spring-boot-okta-spring-boot-parent-3.0.7/examples/webflux-resource-server/src/main/java" />
+          <root url="file://$USER_HOME$/Documents/okta-spring-boot-okta-spring-boot-parent-3.0.7/integration-tests/common-reactive/src/main/java" />
+          <root url="file://$USER_HOME$/Documents/okta-spring-boot-okta-spring-boot-parent-3.0.7/integration-tests/common-servlet/src/main/java" />
+          <root url="file://$USER_HOME$/Documents/okta-spring-boot-okta-spring-boot-parent-3.0.7/oauth2/src/main/java" />
+          <root url="file://$USER_HOME$/Documents/okta-spring-boot-okta-spring-boot-parent-3.0.7/sdk/src/main/java" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>

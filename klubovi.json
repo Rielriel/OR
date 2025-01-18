@@ -1,0 +1,1249 @@
+[ {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "HNK Hajduk Split",
+  "nadimak" : "Bili",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1911,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Gennaro Gattuso"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Ivan Bilić"
+  },
+  "opis" : "HNK Hajduk Split je nogometni klub smješten u Split.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Split"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Poljud",
+    "location" : "Split"
+  },
+  "naziv_liga" : "SuperSport HNL",
+  "rang" : "1",
+  "broj_klubova" : "10",
+  "krugovi" : "4",
+  "navijači" : "Torcida",
+  "boja" : "Bijela",
+  "prvak_hrvatska" : 6
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "HNK Rijeka",
+  "nadimak" : "Riječki bijeli",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1946,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Radomir Đalović"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Damir Mišković"
+  },
+  "opis" : "HNK Rijeka je nogometni klub smješten u Rijeka.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Rijeka"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Rujevica",
+    "location" : "Rijeka"
+  },
+  "naziv_liga" : "SuperSport HNL",
+  "rang" : "1",
+  "broj_klubova" : "10",
+  "krugovi" : "4",
+  "navijači" : "Armada",
+  "boja" : "Bijela",
+  "prvak_hrvatska" : 1
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "GNK Dinamo Zagreb",
+  "nadimak" : "Plavi",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1945,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Nenad Bjelica"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Velimir Zajec"
+  },
+  "opis" : "GNK Dinamo Zagreb je nogometni klub smješten u Zagreb.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Zagreb"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Maksimir",
+    "location" : "Zagreb"
+  },
+  "naziv_liga" : "SuperSport HNL",
+  "rang" : "1",
+  "broj_klubova" : "10",
+  "krugovi" : "4",
+  "navijači" : "Bad Blue Boys",
+  "boja" : "Plava",
+  "prvak_hrvatska" : 25
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Varaždin",
+  "nadimak" : "Varaždinci",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1931,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Nikola Šafarić"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Dražen Vitez"
+  },
+  "opis" : "NK Varaždin je nogometni klub smješten u Varaždin.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Varaždin"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Varteks",
+    "location" : "Varaždin"
+  },
+  "naziv_liga" : "SuperSport HNL",
+  "rang" : "1",
+  "broj_klubova" : "10",
+  "krugovi" : "4",
+  "navijači" : "White Stones",
+  "boja" : "Plavo-bijela",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Osijek",
+  "nadimak" : "Bijelo-plavi",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1947,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Federico Coppitelli"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Ferenc Sakalj"
+  },
+  "opis" : "NK Osijek je nogometni klub smješten u Osijek.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Osijek"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Opus Arena",
+    "location" : "Osijek"
+  },
+  "naziv_liga" : "SuperSport HNL",
+  "rang" : "1",
+  "broj_klubova" : "10",
+  "krugovi" : "4",
+  "navijači" : "Kohorta",
+  "boja" : "Plavo-bijela",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Istra 1961",
+  "nadimak" : "Zeleno-žuti",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1948,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Paolo Tramezzani"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Branko Devide Vincenti"
+  },
+  "opis" : "NK Istra 1961 je nogometni klub smješten u Pula.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Pula"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Aldo Drosina",
+    "location" : "Pula"
+  },
+  "naziv_liga" : "SuperSport HNL",
+  "rang" : "1",
+  "broj_klubova" : "10",
+  "krugovi" : "4",
+  "navijači" : "Demoni",
+  "boja" : "Zelena-žuta",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "HNK Šibenik",
+  "nadimak" : "Šibenčani",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1932,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Marko Kartelo"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Željko Karajica"
+  },
+  "opis" : "HNK Šibenik je nogometni klub smješten u Šibenik.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Šibenik"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Šubićevac",
+    "location" : "Šibenik"
+  },
+  "naziv_liga" : "SuperSport HNL",
+  "rang" : "1",
+  "broj_klubova" : "10",
+  "krugovi" : "4",
+  "navijači" : "Funcuti",
+  "boja" : "Narančasta",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Lokomotiva Zagreb",
+  "nadimak" : "Lokosi",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1914,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Silvijo Čabraja"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Miroslav Gluhinić"
+  },
+  "opis" : "NK Lokomotiva Zagreb je nogometni klub smješten u Zagreb.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Zagreb"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Kranjčevićeva",
+    "location" : "Zagreb"
+  },
+  "naziv_liga" : "SuperSport HNL",
+  "rang" : "1",
+  "broj_klubova" : "10",
+  "krugovi" : "4",
+  "navijači" : "Lokosi",
+  "boja" : "Plavo-bijela",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "HNK Gorica",
+  "nadimak" : "Goričani",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 2009,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Marijo Carević"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Nenad Črnko"
+  },
+  "opis" : "HNK Gorica je nogometni klub smješten u Velika Gorica.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Velika Gorica"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Radnik",
+    "location" : "Velika Gorica"
+  },
+  "naziv_liga" : "SuperSport HNL",
+  "rang" : "1",
+  "broj_klubova" : "10",
+  "krugovi" : "4",
+  "navijači" : "Šljakeri",
+  "boja" : "Crvena",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Slaven Belupo",
+  "nadimak" : "Farmaceuti",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1912,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Marijo Kovačević"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Robert Markulin"
+  },
+  "opis" : "NK Slaven Belupo je nogometni klub smješten u Koprivnica.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Koprivnica"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Ivan Kušek Apaš",
+    "location" : "Koprivnica"
+  },
+  "naziv_liga" : "SuperSport HNL",
+  "rang" : "1",
+  "broj_klubova" : "10",
+  "krugovi" : "4",
+  "navijači" : "Podravske štuke",
+  "boja" : "Plavo-bijela",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "HNK Vukovar 1991",
+  "nadimak" : "Vukovarčani",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 2012,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Branko Karačić"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Markus Buzov"
+  },
+  "opis" : "HNK Vukovar 1991 je nogometni klub smješten u Vukovar.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Vukovar"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Borovo Naselje",
+    "location" : "Vukovar"
+  },
+  "naziv_liga" : "SuperSport Prva NL",
+  "rang" : "2",
+  "broj_klubova" : "12",
+  "krugovi" : "3",
+  "navijači" : "Vukovar navijači",
+  "boja" : "Maslinasta",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Opatija",
+  "nadimak" : "Opatijci",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1911,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Zoran Bogolin"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Robert Perčić"
+  },
+  "opis" : "NK Opatija je nogometni klub smješten u Opatija.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Opatija"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Kantrida",
+    "location" : "Opatija"
+  },
+  "naziv_liga" : "SuperSport Prva NL",
+  "rang" : "2",
+  "broj_klubova" : "12",
+  "krugovi" : "3",
+  "navijači" : "Pešekani",
+  "boja" : "Crno-bijela",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Dubrava Tim Kabel",
+  "nadimak" : "Dubrava",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1945,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Davor Mladina"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Roko Ivanović"
+  },
+  "opis" : "NK Dubrava Tim Kabel je nogometni klub smješten u Zagreb.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Zagreb"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Grana Klaka",
+    "location" : "Zagreb"
+  },
+  "naziv_liga" : "SuperSport Prva NL",
+  "rang" : "2",
+  "broj_klubova" : "12",
+  "krugovi" : "3",
+  "navijači" : "Rebelsi",
+  "boja" : "Ljubičasta",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Sesvete",
+  "nadimak" : "Sesvete",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1941,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Mario Rac"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Pero Karatović"
+  },
+  "opis" : "NK Sesvete je nogometni klub smješten u Sesvete.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Sesvete"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Sveti Josip Radnik",
+    "location" : "Sesvete"
+  },
+  "naziv_liga" : "SuperSport Prva NL",
+  "rang" : "2",
+  "broj_klubova" : "12",
+  "krugovi" : "3",
+  "navijači" : "Sesvećani",
+  "boja" : "Crveno-crna",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Croatia Zmijavci",
+  "nadimak" : "Zmijavčani",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1974,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Goran Radeljić"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Ivan Piplica"
+  },
+  "opis" : "NK Croatia Zmijavci je nogometni klub smješten u Zmijavci.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Zmijavci"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Marijan Šuto",
+    "location" : "Zmijavci"
+  },
+  "naziv_liga" : "SuperSport Prva NL",
+  "rang" : "2",
+  "broj_klubova" : "12",
+  "krugovi" : "3",
+  "navijači" : "Zmijavci navijači",
+  "boja" : "Crveno-bijela",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "HNK Cibalia",
+  "nadimak" : "Nebesko-plavi",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1919,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Ivan Karaula"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Damir Mustapić"
+  },
+  "opis" : "HNK Cibalia je nogometni klub smješten u Vinkovci.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Vinkovci"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Cibalia",
+    "location" : "Vinkovci"
+  },
+  "naziv_liga" : "SuperSport Prva NL",
+  "rang" : "2",
+  "broj_klubova" : "12",
+  "krugovi" : "3",
+  "navijači" : "Ultras Vinkovci",
+  "boja" : "Plava",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "HNK Orijent",
+  "nadimak" : "Sušačani",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1919,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Ivan Šušnjić"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Saša Matijaš"
+  },
+  "opis" : "HNK Orijent je nogometni klub smješten u Rijeka.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Rijeka"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Krimeja",
+    "location" : "Rijeka"
+  },
+  "naziv_liga" : "SuperSport Prva NL",
+  "rang" : "2",
+  "broj_klubova" : "12",
+  "krugovi" : "3",
+  "navijači" : "Red Fuckers",
+  "boja" : "Crvena",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Rudeš",
+  "nadimak" : "Rudešani",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1957,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Samir Toplak"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Josip Joe Šimunić"
+  },
+  "opis" : "NK Rudeš je nogometni klub smješten u Zagreb.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Zagreb"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Rudeš",
+    "location" : "Zagreb"
+  },
+  "naziv_liga" : "SuperSport Prva NL",
+  "rang" : "2",
+  "broj_klubova" : "12",
+  "krugovi" : "3",
+  "navijači" : "Rudeš Boys",
+  "boja" : "Plava",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Jarun",
+  "nadimak" : "Jarun",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1921,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Jerko Leko"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Mate Bekavac"
+  },
+  "opis" : "NK Jarun je nogometni klub smješten u Zagreb.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Zagreb"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Jarun",
+    "location" : "Zagreb"
+  },
+  "naziv_liga" : "SuperSport Prva NL",
+  "rang" : "2",
+  "broj_klubova" : "12",
+  "krugovi" : "3",
+  "navijači" : "Jarun Ultras",
+  "boja" : "Plava",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Dugopolje",
+  "nadimak" : "Bijeli",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1952,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Mirko Labrović"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Mario Smodlaka"
+  },
+  "opis" : "NK Dugopolje je nogometni klub smješten u Dugopolje.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Dugopolje"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Hrvatski vitezovi",
+    "location" : "Dugopolje"
+  },
+  "naziv_liga" : "SuperSport Prva NL",
+  "rang" : "2",
+  "broj_klubova" : "12",
+  "krugovi" : "3",
+  "navijači" : "Dugopolje navijači",
+  "boja" : "Bijela",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK BSK Bijelo Brdo",
+  "nadimak" : "BSK",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1935,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Igor Budiša"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Jovo Vuković"
+  },
+  "opis" : "NK BSK Bijelo Brdo je nogometni klub smješten u Bijelo Brdo.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Bijelo Brdo"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion BSK",
+    "location" : "Bijelo Brdo"
+  },
+  "naziv_liga" : "SuperSport Prva NL",
+  "rang" : "2",
+  "broj_klubova" : "12",
+  "krugovi" : "3",
+  "navijači" : "BSK navijači",
+  "boja" : "Plavo-žuta",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Zrinski Osječko",
+  "nadimak" : "Zrinski",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1970,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Marko Vukčević"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Ivan Komak"
+  },
+  "opis" : "NK Zrinski Osječko je nogometni klub smješten u Osijek.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Osijek"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Gradski vrt",
+    "location" : "Osijek"
+  },
+  "naziv_liga" : "SuperSport Prva NL",
+  "rang" : "2",
+  "broj_klubova" : "12",
+  "krugovi" : "3",
+  "navijači" : "Zrinski navijači",
+  "boja" : "Crvena",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Mladost Ždralovi",
+  "nadimak" : "Ždralovčani",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1933,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Tihomir Bradić"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Vjekoslav Ćalušić"
+  },
+  "opis" : "NK Mladost Ždralovi je nogometni klub smješten u Ždralovi.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Ždralovi"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Brdo",
+    "location" : "Ždralovi"
+  },
+  "naziv_liga" : "SuperSport Druga NL",
+  "rang" : "3",
+  "broj_klubova" : "16",
+  "krugovi" : "2",
+  "navijači" : "Ekipa s brda",
+  "boja" : "Crvena",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Jadran-LP",
+  "nadimak" : "Jadranaši",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1959,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Mišo Krstičević"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Tihomir Krstičević"
+  },
+  "opis" : "NK Jadran-LP je nogometni klub smješten u Ploče.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Ploče"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Jadranovo",
+    "location" : "Ploče"
+  },
+  "naziv_liga" : "SuperSport Druga NL",
+  "rang" : "3",
+  "broj_klubova" : "16",
+  "krugovi" : "2",
+  "navijači" : "Trlilule",
+  "boja" : "Plava",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Bjelovar",
+  "nadimak" : "Bjelovarčani",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1908,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Tomislav Mikulić"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Ivan Ščrbačić"
+  },
+  "opis" : "NK Bjelovar je nogometni klub smješten u Bjelovar.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Bjelovar"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Gradski stadion Bjelovar",
+    "location" : "Bjelovar"
+  },
+  "naziv_liga" : "SuperSport Druga NL",
+  "rang" : "3",
+  "broj_klubova" : "16",
+  "krugovi" : "2",
+  "navijači" : "Torcida Bjelovar",
+  "boja" : "Plavo-bijela",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Kustošija",
+  "nadimak" : "Kusta",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1929,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Perica Vidak"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Branimir Majdak"
+  },
+  "opis" : "NK Kustošija je nogometni klub smješten u Zagreb.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Zagreb"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Kustošija",
+    "location" : "Zagreb"
+  },
+  "naziv_liga" : "SuperSport Druga NL",
+  "rang" : "3",
+  "broj_klubova" : "16",
+  "krugovi" : "2",
+  "navijači" : "Kustošija navijači",
+  "boja" : "Crveno-crna",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Solin",
+  "nadimak" : "Modri-Žuti",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1919,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Marin Oršulić"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Ivica Rakušić"
+  },
+  "opis" : "NK Solin je nogometni klub smješten u Solin.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Solin"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion pokraj Jadra",
+    "location" : "Solin"
+  },
+  "naziv_liga" : "SuperSport Druga NL",
+  "rang" : "3",
+  "broj_klubova" : "16",
+  "krugovi" : "2",
+  "navijači" : "Solin navijači",
+  "boja" : "Plavo-žuta",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Dugo Selo",
+  "nadimak" : "Dugoselčani",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1923,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Ivan Klarić"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Damir Fintić"
+  },
+  "opis" : "NK Dugo Selo je nogometni klub smješten u Dugo Selo.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Dugo Selo"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Gradski stadion",
+    "location" : "Dugo Selo"
+  },
+  "naziv_liga" : "SuperSport Druga NL",
+  "rang" : "3",
+  "broj_klubova" : "16",
+  "krugovi" : "2",
+  "navijači" : "Blue Boys Dugo Selo",
+  "boja" : "Plava",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "HNK Segesta",
+  "nadimak" : "Stara dama",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1906,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Zoran Buinac"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Ervin Mehinović"
+  },
+  "opis" : "HNK Segesta je nogometni klub smješten u Sisak.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Sisak"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Gradski stadion",
+    "location" : "Sisak"
+  },
+  "naziv_liga" : "SuperSport Druga NL",
+  "rang" : "3",
+  "broj_klubova" : "16",
+  "krugovi" : "2",
+  "navijači" : "Antitalenti",
+  "boja" : "Crveno-bijela",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Radnik Križevci",
+  "nadimak" : "Radnik",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1909,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Damir Milinović"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Drago Črček"
+  },
+  "opis" : "NK Radnik Križevci je nogometni klub smješten u Križevci.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Križevci"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Gradski stadion",
+    "location" : "Križevci"
+  },
+  "naziv_liga" : "SuperSport Druga NL",
+  "rang" : "3",
+  "broj_klubova" : "16",
+  "krugovi" : "2",
+  "navijači" : "Radnik navijači",
+  "boja" : "Plava",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Hrvace",
+  "nadimak" : "Hrvace",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1997,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Grgica Kovač"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Stipe Doljanin"
+  },
+  "opis" : "NK Hrvace je nogometni klub smješten u Hrvace.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Hrvace"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Gradski stadion",
+    "location" : "Hrvace"
+  },
+  "naziv_liga" : "SuperSport Druga NL",
+  "rang" : "3",
+  "broj_klubova" : "16",
+  "krugovi" : "2",
+  "navijači" : "Hrvace navijači",
+  "boja" : "Crvena",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Trnje",
+  "nadimak" : "Trnjani",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1924,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Srećko Lušić"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Jakov Sivrić"
+  },
+  "opis" : "NK Trnje je nogometni klub smješten u Zagreb.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Zagreb"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion NK Trnje",
+    "location" : "Zagreb"
+  },
+  "naziv_liga" : "SuperSport Druga NL",
+  "rang" : "3",
+  "broj_klubova" : "16",
+  "krugovi" : "2",
+  "navijači" : "Trnje navijači",
+  "boja" : "Plava",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Uljanik",
+  "nadimak" : "Uljanil",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 2003,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Sergej Banović"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Toni Draguzet"
+  },
+  "opis" : "NK Uljanik je nogometni klub smješten u Pula.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Pula"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "SRC Uljanik Veruda",
+    "location" : "Pula"
+  },
+  "naziv_liga" : "SuperSport Druga NL",
+  "rang" : "3",
+  "broj_klubova" : "16",
+  "krugovi" : "2",
+  "navijači" : "Uljanik navijači",
+  "boja" : "Plavo-bijela",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Hrvatski dragovoljac",
+  "nadimak" : "Crni",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1975,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Mladen Stipković"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Berislav Gluić"
+  },
+  "opis" : "NK Hrvatski dragovoljac je nogometni klub smješten u Zagreb.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Zagreb"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "ŠNC Stjepan Spajić",
+    "location" : "Zagreb"
+  },
+  "naziv_liga" : "SuperSport Druga NL",
+  "rang" : "3",
+  "broj_klubova" : "16",
+  "krugovi" : "2",
+  "navijači" : "Crni ratnici",
+  "boja" : "Crna",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Grobničan",
+  "nadimak" : "Grobničan",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1932,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Predrag Stilinović"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Damir Batarelo"
+  },
+  "opis" : "NK Grobničan je nogometni klub smješten u Čavle.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Čavle"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Mavrinci",
+    "location" : "Čavle"
+  },
+  "naziv_liga" : "SuperSport Druga NL",
+  "rang" : "3",
+  "broj_klubova" : "16",
+  "krugovi" : "2",
+  "navijači" : "Grobničan navijači",
+  "boja" : "Crvena",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Marsonia",
+  "nadimak" : "Marsa",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1909,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Josip Markovinović"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Dubravko Galović"
+  },
+  "opis" : "NK Marsonia je nogometni klub smješten u Slavonski Brod.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Slavonski Brod"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Stanko Vlainić-Dida",
+    "location" : "Slavonski Brod"
+  },
+  "naziv_liga" : "SuperSport Druga NL",
+  "rang" : "3",
+  "broj_klubova" : "16",
+  "krugovi" : "2",
+  "navijači" : "Brodska legija",
+  "boja" : "Crna",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK Jadran-Poreč",
+  "nadimak" : "Jadranaši",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1948,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Blaž Bugarin"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Edvard Ribarić"
+  },
+  "opis" : "NK Jadran-Poreč je nogometni klub smješten u Poreč.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Poreč"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion Veli Jože",
+    "location" : "Poreč"
+  },
+  "naziv_liga" : "SuperSport Druga NL",
+  "rang" : "3",
+  "broj_klubova" : "16",
+  "krugovi" : "2",
+  "navijači" : "Šajete Boys",
+  "boja" : "Plavo-bijela",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "NK RUUU",
+  "nadimak" : "Modri-Žuti",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 1919,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "Marin Oršulić"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "Ivica Rakušić"
+  },
+  "opis" : "NK RUUU je nogometni klub smješten u Solin.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "Solin"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "Stadion pokraj Jadra",
+    "location" : "Solin"
+  },
+  "naziv_liga" : "SuperSport Druga NL",
+  "rang" : "3",
+  "broj_klubova" : "16",
+  "krugovi" : "2",
+  "navijači" : "Solin navijači",
+  "boja" : "Plavo-žuta",
+  "prvak_hrvatska" : 0
+}, {
+  "@context" : "https://schema.org",
+  "@type" : "SportsTeam",
+  "naziv_klub" : "3v",
+  "nadimak" : "v",
+  "sport" : "Nogomet",
+  "godina_osnutak" : 232,
+  "trener" : {
+    "@type" : "Coach",
+    "name" : "vc"
+  },
+  "predsjednik" : {
+    "@type" : "Person",
+    "name" : "vs"
+  },
+  "opis" : "3v je nogometni klub smješten u v.",
+  "mjesto" : {
+    "@type" : "Place",
+    "name" : "v"
+  },
+  "stadion" : {
+    "@type" : "StadiumOrArena",
+    "name" : "v",
+    "location" : "v"
+  },
+  "naziv_liga" : "V",
+  "rang" : "3",
+  "broj_klubova" : "3",
+  "krugovi" : "3",
+  "navijači" : "cv",
+  "boja" : "vs",
+  "prvak_hrvatska" : 342
+} ]
